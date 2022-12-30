@@ -1,0 +1,820 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	.clinic/148579.clinic-flame.html	/^function A(a,b,c,d){var e=a.c.getElementsByTagName("head")[0];if(e){var f=t(a,"script",{src:b}),g=!1;f.onload=f.onreadystatechange=function(){g||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(g=!0,c&&c(null),f.onload=f.onreadystatechange=null,"HEAD"==f.parentNode.tagName&&e.removeChild(f))};e.appendChild(f);setTimeout(function(){g||(g=!0,c&&c(Error("Script load timeout")))},d||5E3);return f}return null};function B(){this.a=0;this.c=null}function C(a){a.a++;return function(){a.a--;D(a)}}function E(a,b){a.c=b;D(a)}function D(a){0==a.a&&a.c&&(a.c(),a.c=null)};function F(a){this.a=a||"-"}F.prototype.c=function(a){for(var b=[],c=0;c<arguments.length;c++)b.push(arguments[c].replace(\/[\\W_]+\/g,"").toLowerCase());return b.join(this.a)};function G(a,b){this.c=a;this.f=4;this.a="n";var c=(b||"n4").match(\/^([nio])([1-9])$\/i);c&&(this.a=c[1],this.f=parseInt(c[2],10))}function fa(a){return H(a)+" "+(a.f+"00")+" 300px "+I(a.c)}function I(a){var b=[];a=a.split(\/,\\s*\/);for(var c=0;c<a.length;c++){var d=a[c].replace(\/['"]\/g,"");-1!=d.indexOf(" ")||\/^\\d\/.test(d)?b.push("'"+d+"'"):b.push(d)}return b.join(",")}function J(a){return a.a+a.f}function H(a){var b="normal";"o"===a.a?b="oblique":"i"===a.a&&(b="italic");return b}$/;"	f
+ClassList	.clinic/148579.clinic-flame.html	/^function ClassList(node) {$/;"	f
+Color	.clinic/148579.clinic-flame.html	/^function Color() {}$/;"	f
+Cubehelix	.clinic/148579.clinic-flame.html	/^function Cubehelix(h, s, l, opacity) {$/;"	f
+Da	.clinic/148579.clinic-flame.html	/^function Da(a){for(var b=a.f.length,c=0;c<b;c++){var d=a.f[c].split(":"),e=d[0].replace(\/\\+\/g," "),f=["n4"];if(2<=d.length){var g;var m=d[1];g=[];if(m)for(var m=m.split(","),h=m.length,l=0;l<h;l++){var k;k=m[l];if(k.match(\/^[\\w-]+$\/)){var n=Ca.exec(k.toLowerCase());if(null==n)k="";else{k=n[2];k=null==k||""==k?"n":Ba[k];n=n[1];if(null==n||""==n)n="4";else var r=Aa[n],n=r?r:isNaN(n)?"4":n.substr(0,1);k=[k,n].join("")}}else k="";k&&g.push(k)}0<g.length&&(f=g);3==d.length&&(d=d[2],g=[],d=d?d.split(","):$/;"	f
+Dispatch	.clinic/148579.clinic-flame.html	/^function Dispatch(_) {$/;"	f
+DragEvent	.clinic/148579.clinic-flame.html	/^function DragEvent(target, type, subject, id, active, x, y, dx, dy, dispatch) {$/;"	f
+EnterNode	.clinic/148579.clinic-flame.html	/^function EnterNode(parent, datum) {$/;"	f
+EventEmitter	.clinic/148579.clinic-flame.html	/^function EventEmitter() {$/;"	f
+FormatSpecifier	.clinic/148579.clinic-flame.html	/^function FormatSpecifier(specifier) {$/;"	f
+Gesture	.clinic/148579.clinic-flame.html	/^  function Gesture(that, args) {$/;"	f
+Hcl	.clinic/148579.clinic-flame.html	/^function Hcl(h, c, l, opacity) {$/;"	f
+Hsl	.clinic/148579.clinic-flame.html	/^function Hsl(h, s, l, opacity) {$/;"	f
+Item	.clinic/148579.clinic-flame.html	/^function Item(fun, array) {$/;"	f
+Lab	.clinic/148579.clinic-flame.html	/^function Lab(l, a, b, opacity) {$/;"	f
+Local	.clinic/148579.clinic-flame.html	/^function Local() {$/;"	f
+Node	.clinic/148579.clinic-flame.html	/^function Node(data) {$/;"	f
+ProcessEmitWarning	.clinic/148579.clinic-flame.html	/^function ProcessEmitWarning(warning) {$/;"	f
+Rgb	.clinic/148579.clinic-flame.html	/^function Rgb(r, g, b, opacity) {$/;"	f
+Selection	.clinic/148579.clinic-flame.html	/^function Selection(groups, parents) {$/;"	f
+Timer	.clinic/148579.clinic-flame.html	/^function Timer() {$/;"	f
+Transform	.clinic/148579.clinic-flame.html	/^function Transform(k, x, y) {$/;"	f
+Transition	.clinic/148579.clinic-flame.html	/^function Transition(groups, parents, name, id) {$/;"	f
+TreeNode	.clinic/148579.clinic-flame.html	/^function TreeNode(node, i) {$/;"	f
+UTCdISO	.clinic/148579.clinic-flame.html	/^function UTCdISO(d) {$/;"	f
+ZoomEvent	.clinic/148579.clinic-flame.html	/^function ZoomEvent(target, type, transform) {$/;"	f
+_addListener	.clinic/148579.clinic-flame.html	/^function _addListener(target, type, listener, prepend) {$/;"	f
+_getMaxListeners	.clinic/148579.clinic-flame.html	/^function _getMaxListeners(that) {$/;"	f
+_listeners	.clinic/148579.clinic-flame.html	/^function _listeners(target, type, unwrap) {$/;"	f
+_onceWrap	.clinic/148579.clinic-flame.html	/^function _onceWrap(target, type, listener) {$/;"	f
+_render	.clinic/148579.clinic-flame.html	/^  function _render ({ label, classNames = [], leftIcon = '', rightIcon = '', disabled = false, onClick, title = '' }) {$/;"	f
+active	.clinic/148579.clinic-flame.html	/^function active(node, name) {$/;"	f
+addErrorHandlerIfEventEmitter	.clinic/148579.clinic-flame.html	/^function addErrorHandlerIfEventEmitter(emitter, handler, flags) {$/;"	f
+adjustForHighDpiScreen	.clinic/148579.clinic-flame.html	/^  function adjustForHighDpiScreen (canvas) {$/;"	f
+animate	.clinic/148579.clinic-flame.html	/^        function animate () {$/;"	f
+apportion	.clinic/148579.clinic-flame.html	/^  function apportion(v, w, ancestor) {$/;"	f
+array	.clinic/148579.clinic-flame.html	/^function array(a, b) {$/;"	f
+arrayClone	.clinic/148579.clinic-flame.html	/^function arrayClone(arr, n) {$/;"	f
+arrayify	.clinic/148579.clinic-flame.html	/^function arrayify(values) {$/;"	f
+ascending	.clinic/148579.clinic-flame.html	/^function ascending(a, b) {$/;"	f
+ascendingComparator	.clinic/148579.clinic-flame.html	/^function ascendingComparator(f) {$/;"	f
+attrConstant	.clinic/148579.clinic-flame.html	/^function attrConstant(name, interpolate, value1) {$/;"	f
+attrConstant	.clinic/148579.clinic-flame.html	/^function attrConstant(name, value) {$/;"	f
+attrConstantNS	.clinic/148579.clinic-flame.html	/^function attrConstantNS(fullname, interpolate, value1) {$/;"	f
+attrConstantNS	.clinic/148579.clinic-flame.html	/^function attrConstantNS(fullname, value) {$/;"	f
+attrFunction	.clinic/148579.clinic-flame.html	/^function attrFunction(name, interpolate, value) {$/;"	f
+attrFunction	.clinic/148579.clinic-flame.html	/^function attrFunction(name, value) {$/;"	f
+attrFunctionNS	.clinic/148579.clinic-flame.html	/^function attrFunctionNS(fullname, interpolate, value) {$/;"	f
+attrFunctionNS	.clinic/148579.clinic-flame.html	/^function attrFunctionNS(fullname, value) {$/;"	f
+attrInterpolate	.clinic/148579.clinic-flame.html	/^function attrInterpolate(name, i) {$/;"	f
+attrInterpolateNS	.clinic/148579.clinic-flame.html	/^function attrInterpolateNS(fullname, i) {$/;"	f
+attrRemove	.clinic/148579.clinic-flame.html	/^function attrRemove(name) {$/;"	f
+attrRemoveNS	.clinic/148579.clinic-flame.html	/^function attrRemoveNS(fullname) {$/;"	f
+attrTween	.clinic/148579.clinic-flame.html	/^function attrTween(name, value) {$/;"	f
+attrTweenNS	.clinic/148579.clinic-flame.html	/^function attrTweenNS(fullname, value) {$/;"	f
+backIn	.clinic/148579.clinic-flame.html	/^  function backIn(t) {$/;"	f
+backInOut	.clinic/148579.clinic-flame.html	/^  function backInOut(t) {$/;"	f
+backOut	.clinic/148579.clinic-flame.html	/^  function backOut(t) {$/;"	f
+band	.clinic/148579.clinic-flame.html	/^function band() {$/;"	f
+basis	.clinic/148579.clinic-flame.html	/^function basis(t1, v0, v1, v2, v3) {$/;"	f
+basisClosed	.clinic/148579.clinic-flame.html	/^function basisClosed(values) {$/;"	f
+beforestart	.clinic/148579.clinic-flame.html	/^  function beforestart(id, container, point, that, args) {$/;"	f
+bimap	.clinic/148579.clinic-flame.html	/^function bimap(domain, range, interpolate) {$/;"	f
+bin	.clinic/148579.clinic-flame.html	/^function bin() {$/;"	f
+binary	.clinic/148579.clinic-flame.html	/^function binary(parent, x0, y0, x1, y1) {$/;"	f
+bindIndex	.clinic/148579.clinic-flame.html	/^function bindIndex(parent, group, enter, update, exit, data) {$/;"	f
+bindKey	.clinic/148579.clinic-flame.html	/^function bindKey(parent, group, enter, update, exit, data, key) {$/;"	f
+bisector	.clinic/148579.clinic-flame.html	/^function bisector(f) {$/;"	f
+bounceIn	.clinic/148579.clinic-flame.html	/^function bounceIn(t) {$/;"	f
+bounceInOut	.clinic/148579.clinic-flame.html	/^function bounceInOut(t) {$/;"	f
+bounceOut	.clinic/148579.clinic-flame.html	/^function bounceOut(t) {$/;"	f
+calendar	.clinic/148579.clinic-flame.html	/^function calendar(ticks, tickInterval, year, month, week, day, hour, minute, second, format) {$/;"	f
+cancel	.clinic/148579.clinic-flame.html	/^  function cancel() {$/;"	f
+categorize	.clinic/148579.clinic-flame.html	/^  function categorize (child) {$/;"	f
+categorizeTree	.clinic/148579.clinic-flame.html	/^  function categorizeTree (data) {$/;"	f
+center	.clinic/148579.clinic-flame.html	/^  function center(a, x, lo, hi) {$/;"	f
+centroid	.clinic/148579.clinic-flame.html	/^  function centroid(extent) {$/;"	f
+chart	.clinic/148579.clinic-flame.html	/^  function chart (firstRender) {$/;"	f
+checkListener	.clinic/148579.clinic-flame.html	/^function checkListener(listener) {$/;"	f
+circleIn	.clinic/148579.clinic-flame.html	/^function circleIn(t) {$/;"	f
+circleInOut	.clinic/148579.clinic-flame.html	/^function circleInOut(t) {$/;"	f
+circleOut	.clinic/148579.clinic-flame.html	/^function circleOut(t) {$/;"	f
+clamper	.clinic/148579.clinic-flame.html	/^function clamper(a, b) {$/;"	f
+classArray	.clinic/148579.clinic-flame.html	/^function classArray(string) {$/;"	f
+classList	.clinic/148579.clinic-flame.html	/^function classList(node) {$/;"	f
+classedAdd	.clinic/148579.clinic-flame.html	/^function classedAdd(node, names) {$/;"	f
+classedFalse	.clinic/148579.clinic-flame.html	/^function classedFalse(names) {$/;"	f
+classedFunction	.clinic/148579.clinic-flame.html	/^function classedFunction(names, value) {$/;"	f
+classedRemove	.clinic/148579.clinic-flame.html	/^function classedRemove(node, names) {$/;"	f
+classedTrue	.clinic/148579.clinic-flame.html	/^function classedTrue(names) {$/;"	f
+cleanUpNextTick	.clinic/148579.clinic-flame.html	/^function cleanUpNextTick() {$/;"	f
+clear	.clinic/148579.clinic-flame.html	/^  function clear (d, color) {$/;"	f
+clearNow	.clinic/148579.clinic-flame.html	/^function clearNow() {$/;"	f
+closeCurrentlyExpandedDropDown	.clinic/148579.clinic-flame.html	/^function closeCurrentlyExpandedDropDown () {$/;"	f
+cluster	.clinic/148579.clinic-flame.html	/^  function cluster(root) {$/;"	f
+cluster	.clinic/148579.clinic-flame.html	/^function cluster() {$/;"	f
+color	.clinic/148579.clinic-flame.html	/^function color(format) {$/;"	f
+color_formatHex	.clinic/148579.clinic-flame.html	/^function color_formatHex() {$/;"	f
+color_formatHsl	.clinic/148579.clinic-flame.html	/^function color_formatHsl() {$/;"	f
+color_formatRgb	.clinic/148579.clinic-flame.html	/^function color_formatRgb() {$/;"	f
+compareNode	.clinic/148579.clinic-flame.html	/^  function compareNode(a, b) {$/;"	f
+computeHeight	.clinic/148579.clinic-flame.html	/^function computeHeight(node) {$/;"	f
+constant	.clinic/148579.clinic-flame.html	/^function constant(x) {$/;"	f
+constantNull	.clinic/148579.clinic-flame.html	/^function constantNull() {$/;"	f
+constantZero	.clinic/148579.clinic-flame.html	/^function constantZero() {$/;"	f
+constants	.clinic/148579.clinic-flame.html	/^function constants(x) {$/;"	f
+contextListener	.clinic/148579.clinic-flame.html	/^function contextListener(listener, index, group) {$/;"	f
+continuous	.clinic/148579.clinic-flame.html	/^function continuous() {$/;"	f
+copy	.clinic/148579.clinic-flame.html	/^function copy(source, target) {$/;"	f
+copy	.clinic/148579.clinic-flame.html	/^function copy(text, options) {$/;"	f
+copyData	.clinic/148579.clinic-flame.html	/^function copyData(node) {$/;"	f
+cosh	.clinic/148579.clinic-flame.html	/^function cosh(x) {$/;"	f
+count	.clinic/148579.clinic-flame.html	/^function count(node) {$/;"	f
+count	.clinic/148579.clinic-flame.html	/^function count(values, valueof) {$/;"	f
+create	.clinic/148579.clinic-flame.html	/^function create(name) {$/;"	f
+create	.clinic/148579.clinic-flame.html	/^function create(node, id, self) {$/;"	f
+createAnimation	.clinic/148579.clinic-flame.html	/^function createAnimation (opts, render, done) {$/;"	f
+creator	.clinic/148579.clinic-flame.html	/^function creator(name) {$/;"	f
+creatorFixed	.clinic/148579.clinic-flame.html	/^function creatorFixed(fullname) {$/;"	f
+creatorInherit	.clinic/148579.clinic-flame.html	/^function creatorInherit(name) {$/;"	f
+cross	.clinic/148579.clinic-flame.html	/^function cross(...values) {$/;"	f
+cubehelix	.clinic/148579.clinic-flame.html	/^    function cubehelix(start, end) {$/;"	f
+cubehelix	.clinic/148579.clinic-flame.html	/^function cubehelix(h, s, l, opacity) {$/;"	f
+cubehelix	.clinic/148579.clinic-flame.html	/^function cubehelix(hue) {$/;"	f
+cubehelixConvert	.clinic/148579.clinic-flame.html	/^function cubehelixConvert(o) {$/;"	f
+cubicIn	.clinic/148579.clinic-flame.html	/^function cubicIn(t) {$/;"	f
+cubicInOut	.clinic/148579.clinic-flame.html	/^function cubicInOut(t) {$/;"	f
+cubicOut	.clinic/148579.clinic-flame.html	/^function cubicOut(t) {$/;"	f
+cumsum	.clinic/148579.clinic-flame.html	/^function cumsum(values, valueof) {$/;"	f
+customEvent	.clinic/148579.clinic-flame.html	/^function customEvent(event1, listener, that, args) {$/;"	f
+dISO	.clinic/148579.clinic-flame.html	/^function dISO(d) {$/;"	f
+date	.clinic/148579.clinic-flame.html	/^function date(a, b) {$/;"	f
+date	.clinic/148579.clinic-flame.html	/^function date(t) {$/;"	f
+dblclicked	.clinic/148579.clinic-flame.html	/^  function dblclicked() {$/;"	f
+debounce	.clinic/148579.clinic-flame.html	/^function debounce(func, wait, options) {$/;"	f
+debounced	.clinic/148579.clinic-flame.html	/^  function debounced() {$/;"	f
+decode	.clinic/148579.clinic-flame.html	/^function decode(input) {$/;"	f
+decompose	.clinic/148579.clinic-flame.html	/^function decompose(a, b, c, d, e, f) {$/;"	f
+defaultChildren	.clinic/148579.clinic-flame.html	/^function defaultChildren(d) {$/;"	f
+defaultClearTimeout	.clinic/148579.clinic-flame.html	/^function defaultClearTimeout () {$/;"	f
+defaultClickHandler	.clinic/148579.clinic-flame.html	/^  function defaultClickHandler (target) {$/;"	f
+defaultColorHash	.clinic/148579.clinic-flame.html	/^function defaultColorHash (d, perc, allSamples, tiers) {$/;"	f
+defaultConstrain	.clinic/148579.clinic-flame.html	/^function defaultConstrain(transform, extent, translateExtent) {$/;"	f
+defaultContainer	.clinic/148579.clinic-flame.html	/^function defaultContainer() {$/;"	f
+defaultExtent	.clinic/148579.clinic-flame.html	/^function defaultExtent() {$/;"	f
+defaultFilter	.clinic/148579.clinic-flame.html	/^function defaultFilter() {$/;"	f
+defaultId	.clinic/148579.clinic-flame.html	/^function defaultId(d) {$/;"	f
+defaultIsNodeExcluded	.clinic/148579.clinic-flame.html	/^function defaultIsNodeExcluded (node, filterTypes) {$/;"	f
+defaultLocale	.clinic/148579.clinic-flame.html	/^function defaultLocale(definition) {$/;"	f
+defaultParentId	.clinic/148579.clinic-flame.html	/^function defaultParentId(d) {$/;"	f
+defaultRadius	.clinic/148579.clinic-flame.html	/^function defaultRadius(d) {$/;"	f
+defaultRenderLabel	.clinic/148579.clinic-flame.html	/^  function defaultRenderLabel (context, node, x, y, width) {$/;"	f
+defaultRenderStackFrameBox	.clinic/148579.clinic-flame.html	/^  function defaultRenderStackFrameBox (context, node, x, y, width, state) {$/;"	f
+defaultRenderTooltip	.clinic/148579.clinic-flame.html	/^  function defaultRenderTooltip (node) {$/;"	f
+defaultSeparation	.clinic/148579.clinic-flame.html	/^function defaultSeparation(a, b) {$/;"	f
+defaultSetTimout	.clinic/148579.clinic-flame.html	/^function defaultSetTimout() {$/;"	f
+defaultSubject	.clinic/148579.clinic-flame.html	/^function defaultSubject(d) {$/;"	f
+defaultTouchable	.clinic/148579.clinic-flame.html	/^function defaultTouchable() {$/;"	f
+defaultTransform	.clinic/148579.clinic-flame.html	/^function defaultTransform() {$/;"	f
+defaultView	.clinic/148579.clinic-flame.html	/^function defaultView(node) {$/;"	f
+defaultWheelDelta	.clinic/148579.clinic-flame.html	/^function defaultWheelDelta() {$/;"	f
+define	.clinic/148579.clinic-flame.html	/^function define(constructor, factory, prototype) {$/;"	f
+delayConstant	.clinic/148579.clinic-flame.html	/^function delayConstant(id, value) {$/;"	f
+delayFunction	.clinic/148579.clinic-flame.html	/^function delayFunction(id, value) {$/;"	f
+descending	.clinic/148579.clinic-flame.html	/^function descending(a, b) {$/;"	f
+deviation	.clinic/148579.clinic-flame.html	/^function deviation(values, valueof) {$/;"	f
+difference	.clinic/148579.clinic-flame.html	/^function difference(values, ...others) {$/;"	f
+discrete	.clinic/148579.clinic-flame.html	/^function discrete(range) {$/;"	f
+disjoint	.clinic/148579.clinic-flame.html	/^function disjoint(values, other) {$/;"	f
+dispatch	.clinic/148579.clinic-flame.html	/^function dispatch() {$/;"	f
+dispatchConstant	.clinic/148579.clinic-flame.html	/^function dispatchConstant(type, params) {$/;"	f
+dispatchEvent	.clinic/148579.clinic-flame.html	/^function dispatchEvent(node, type, params) {$/;"	f
+dispatchFunction	.clinic/148579.clinic-flame.html	/^function dispatchFunction(type, params) {$/;"	f
+diverging	.clinic/148579.clinic-flame.html	/^function diverging() {$/;"	f
+divergingLog	.clinic/148579.clinic-flame.html	/^function divergingLog() {$/;"	f
+divergingPow	.clinic/148579.clinic-flame.html	/^function divergingPow() {$/;"	f
+divergingSqrt	.clinic/148579.clinic-flame.html	/^function divergingSqrt() {$/;"	f
+divergingSymlog	.clinic/148579.clinic-flame.html	/^function divergingSymlog() {$/;"	f
+doSort	.clinic/148579.clinic-flame.html	/^  function doSort (a, b) {$/;"	f
+drag	.clinic/148579.clinic-flame.html	/^  function drag(selection) {$/;"	f
+drag	.clinic/148579.clinic-flame.html	/^function drag() {$/;"	f
+drainQueue	.clinic/148579.clinic-flame.html	/^function drainQueue() {$/;"	f
+drawLabel	.clinic/148579.clinic-flame.html	/^function drawLabel (context, functionName, fileName, coords) {$/;"	f
+durationConstant	.clinic/148579.clinic-flame.html	/^function durationConstant(id, value) {$/;"	f
+durationFunction	.clinic/148579.clinic-flame.html	/^function durationFunction(id, value) {$/;"	f
+ea	.clinic/148579.clinic-flame.html	/^function ea(a){return a.o.location.hostname||a.a.location.hostname}function z(a,b,c){function d(){m&&e&&f&&(m(g),m=null)}b=t(a,"link",{rel:"stylesheet",href:b,media:"all"});var e=!1,f=!0,g=null,m=c||null;da?(b.onload=function(){e=!0;d()},b.onerror=function(){e=!0;g=Error("Stylesheet failed to load");d()}):setTimeout(function(){e=!0;d()},0);u(a,"head",b)}$/;"	f
+easeConstant	.clinic/148579.clinic-flame.html	/^function easeConstant(id, value) {$/;"	f
+elasticIn	.clinic/148579.clinic-flame.html	/^  function elasticIn(t) {$/;"	f
+elasticInOut	.clinic/148579.clinic-flame.html	/^  function elasticInOut(t) {$/;"	f
+elasticOut	.clinic/148579.clinic-flame.html	/^  function elasticOut(t) {$/;"	f
+empty	.clinic/148579.clinic-flame.html	/^function empty() {$/;"	f
+empty	.clinic/148579.clinic-flame.html	/^function empty(length) {$/;"	f
+enclose	.clinic/148579.clinic-flame.html	/^function enclose(circles) {$/;"	f
+encloseBasis	.clinic/148579.clinic-flame.html	/^function encloseBasis(B) {$/;"	f
+encloseBasis1	.clinic/148579.clinic-flame.html	/^function encloseBasis1(a) {$/;"	f
+encloseBasis2	.clinic/148579.clinic-flame.html	/^function encloseBasis2(a, b) {$/;"	f
+encloseBasis3	.clinic/148579.clinic-flame.html	/^function encloseBasis3(a, b, c) {$/;"	f
+enclosesNot	.clinic/148579.clinic-flame.html	/^function enclosesNot(a, b) {$/;"	f
+enclosesWeak	.clinic/148579.clinic-flame.html	/^function enclosesWeak(a, b) {$/;"	f
+enclosesWeakAll	.clinic/148579.clinic-flame.html	/^function enclosesWeakAll(a, B) {$/;"	f
+encode	.clinic/148579.clinic-flame.html	/^function encode(input) {$/;"	f
+errorListener	.clinic/148579.clinic-flame.html	/^    function errorListener(err) {$/;"	f
+eventTargetAgnosticAddListener	.clinic/148579.clinic-flame.html	/^function eventTargetAgnosticAddListener(emitter, name, listener, flags) {$/;"	f
+every	.clinic/148579.clinic-flame.html	/^function every(values, test) {$/;"	f
+executeShifts	.clinic/148579.clinic-flame.html	/^function executeShifts(v) {$/;"	f
+expIn	.clinic/148579.clinic-flame.html	/^function expIn(t) {$/;"	f
+expInOut	.clinic/148579.clinic-flame.html	/^function expInOut(t) {$/;"	f
+expOut	.clinic/148579.clinic-flame.html	/^function expOut(t) {$/;"	f
+exponent	.clinic/148579.clinic-flame.html	/^function exponent(x) {$/;"	f
+exponential	.clinic/148579.clinic-flame.html	/^function exponential(a, b, y) {$/;"	f
+extend	.clinic/148579.clinic-flame.html	/^function extend(parent, definition) {$/;"	f
+extendBasis	.clinic/148579.clinic-flame.html	/^function extendBasis(B, p) {$/;"	f
+extent	.clinic/148579.clinic-flame.html	/^function extent(values, valueof) {$/;"	f
+fadeAncestors	.clinic/148579.clinic-flame.html	/^  function fadeAncestors (d) {$/;"	f
+fcumsum	.clinic/148579.clinic-flame.html	/^function fcumsum(values, valueof) {$/;"	f
+filter	.clinic/148579.clinic-flame.html	/^  function filter (data) {$/;"	f
+filter	.clinic/148579.clinic-flame.html	/^function filter(values, test) {$/;"	f
+filterContextListener	.clinic/148579.clinic-flame.html	/^function filterContextListener(listener, index, group) {$/;"	f
+firstWalk	.clinic/148579.clinic-flame.html	/^  function firstWalk(v) {$/;"	f
+flameGraph	.clinic/148579.clinic-flame.html	/^function flameGraph (opts) {$/;"	f
+flush	.clinic/148579.clinic-flame.html	/^  function flush() {$/;"	f
+format	.clinic/148579.clinic-flame.html	/^    function format(value) {$/;"	f
+format	.clinic/148579.clinic-flame.html	/^function format(message) {$/;"	f
+formatDayOfMonth	.clinic/148579.clinic-flame.html	/^function formatDayOfMonth(d, p) {$/;"	f
+formatDayOfYear	.clinic/148579.clinic-flame.html	/^function formatDayOfYear(d, p) {$/;"	f
+formatDecimal	.clinic/148579.clinic-flame.html	/^function formatDecimal(x) {$/;"	f
+formatDecimalParts	.clinic/148579.clinic-flame.html	/^function formatDecimalParts(x, p) {$/;"	f
+formatFullYear	.clinic/148579.clinic-flame.html	/^function formatFullYear(d, p) {$/;"	f
+formatFullYearISO	.clinic/148579.clinic-flame.html	/^function formatFullYearISO(d, p) {$/;"	f
+formatGroup	.clinic/148579.clinic-flame.html	/^function formatGroup(grouping, thousands) {$/;"	f
+formatHour12	.clinic/148579.clinic-flame.html	/^function formatHour12(d, p) {$/;"	f
+formatHour24	.clinic/148579.clinic-flame.html	/^function formatHour24(d, p) {$/;"	f
+formatIsoNative	.clinic/148579.clinic-flame.html	/^function formatIsoNative(date) {$/;"	f
+formatLiteralPercent	.clinic/148579.clinic-flame.html	/^function formatLiteralPercent() {$/;"	f
+formatLocale	.clinic/148579.clinic-flame.html	/^function formatLocale(locale) {$/;"	f
+formatLookup	.clinic/148579.clinic-flame.html	/^function formatLookup(names) {$/;"	f
+formatMicroseconds	.clinic/148579.clinic-flame.html	/^function formatMicroseconds(d, p) {$/;"	f
+formatMilliseconds	.clinic/148579.clinic-flame.html	/^function formatMilliseconds(d, p) {$/;"	f
+formatMinutes	.clinic/148579.clinic-flame.html	/^function formatMinutes(d, p) {$/;"	f
+formatMonth	.clinic/148579.clinic-flame.html	/^  function formatMonth(d) {$/;"	f
+formatMonthNumber	.clinic/148579.clinic-flame.html	/^function formatMonthNumber(d, p) {$/;"	f
+formatNumerals	.clinic/148579.clinic-flame.html	/^function formatNumerals(numerals) {$/;"	f
+formatPeriod	.clinic/148579.clinic-flame.html	/^  function formatPeriod(d) {$/;"	f
+formatPrefix	.clinic/148579.clinic-flame.html	/^  function formatPrefix(specifier, value) {$/;"	f
+formatPrefixAuto	.clinic/148579.clinic-flame.html	/^function formatPrefixAuto(x, p) {$/;"	f
+formatQuarter	.clinic/148579.clinic-flame.html	/^  function formatQuarter(d) {$/;"	f
+formatRe	.clinic/148579.clinic-flame.html	/^function formatRe(names) {$/;"	f
+formatRounded	.clinic/148579.clinic-flame.html	/^function formatRounded(x, p) {$/;"	f
+formatSeconds	.clinic/148579.clinic-flame.html	/^function formatSeconds(d, p) {$/;"	f
+formatShortMonth	.clinic/148579.clinic-flame.html	/^  function formatShortMonth(d) {$/;"	f
+formatShortWeekday	.clinic/148579.clinic-flame.html	/^  function formatShortWeekday(d) {$/;"	f
+formatSpecifier	.clinic/148579.clinic-flame.html	/^function formatSpecifier(specifier) {$/;"	f
+formatTrim	.clinic/148579.clinic-flame.html	/^function formatTrim(s) {$/;"	f
+formatUTCDayOfMonth	.clinic/148579.clinic-flame.html	/^function formatUTCDayOfMonth(d, p) {$/;"	f
+formatUTCDayOfYear	.clinic/148579.clinic-flame.html	/^function formatUTCDayOfYear(d, p) {$/;"	f
+formatUTCFullYear	.clinic/148579.clinic-flame.html	/^function formatUTCFullYear(d, p) {$/;"	f
+formatUTCFullYearISO	.clinic/148579.clinic-flame.html	/^function formatUTCFullYearISO(d, p) {$/;"	f
+formatUTCHour12	.clinic/148579.clinic-flame.html	/^function formatUTCHour12(d, p) {$/;"	f
+formatUTCHour24	.clinic/148579.clinic-flame.html	/^function formatUTCHour24(d, p) {$/;"	f
+formatUTCMicroseconds	.clinic/148579.clinic-flame.html	/^function formatUTCMicroseconds(d, p) {$/;"	f
+formatUTCMilliseconds	.clinic/148579.clinic-flame.html	/^function formatUTCMilliseconds(d, p) {$/;"	f
+formatUTCMinutes	.clinic/148579.clinic-flame.html	/^function formatUTCMinutes(d, p) {$/;"	f
+formatUTCMonth	.clinic/148579.clinic-flame.html	/^  function formatUTCMonth(d) {$/;"	f
+formatUTCMonthNumber	.clinic/148579.clinic-flame.html	/^function formatUTCMonthNumber(d, p) {$/;"	f
+formatUTCPeriod	.clinic/148579.clinic-flame.html	/^  function formatUTCPeriod(d) {$/;"	f
+formatUTCQuarter	.clinic/148579.clinic-flame.html	/^  function formatUTCQuarter(d) {$/;"	f
+formatUTCSeconds	.clinic/148579.clinic-flame.html	/^function formatUTCSeconds(d, p) {$/;"	f
+formatUTCShortMonth	.clinic/148579.clinic-flame.html	/^  function formatUTCShortMonth(d) {$/;"	f
+formatUTCShortWeekday	.clinic/148579.clinic-flame.html	/^  function formatUTCShortWeekday(d) {$/;"	f
+formatUTCWeekNumberISO	.clinic/148579.clinic-flame.html	/^function formatUTCWeekNumberISO(d, p) {$/;"	f
+formatUTCWeekNumberMonday	.clinic/148579.clinic-flame.html	/^function formatUTCWeekNumberMonday(d, p) {$/;"	f
+formatUTCWeekNumberSunday	.clinic/148579.clinic-flame.html	/^function formatUTCWeekNumberSunday(d, p) {$/;"	f
+formatUTCWeekday	.clinic/148579.clinic-flame.html	/^  function formatUTCWeekday(d) {$/;"	f
+formatUTCWeekdayNumberMonday	.clinic/148579.clinic-flame.html	/^function formatUTCWeekdayNumberMonday(d) {$/;"	f
+formatUTCWeekdayNumberSunday	.clinic/148579.clinic-flame.html	/^function formatUTCWeekdayNumberSunday(d) {$/;"	f
+formatUTCYear	.clinic/148579.clinic-flame.html	/^function formatUTCYear(d, p) {$/;"	f
+formatUTCYearISO	.clinic/148579.clinic-flame.html	/^function formatUTCYearISO(d, p) {$/;"	f
+formatUTCZone	.clinic/148579.clinic-flame.html	/^function formatUTCZone() {$/;"	f
+formatUnixTimestamp	.clinic/148579.clinic-flame.html	/^function formatUnixTimestamp(d) {$/;"	f
+formatUnixTimestampSeconds	.clinic/148579.clinic-flame.html	/^function formatUnixTimestampSeconds(d) {$/;"	f
+formatWeekNumberISO	.clinic/148579.clinic-flame.html	/^function formatWeekNumberISO(d, p) {$/;"	f
+formatWeekNumberMonday	.clinic/148579.clinic-flame.html	/^function formatWeekNumberMonday(d, p) {$/;"	f
+formatWeekNumberSunday	.clinic/148579.clinic-flame.html	/^function formatWeekNumberSunday(d, p) {$/;"	f
+formatWeekday	.clinic/148579.clinic-flame.html	/^  function formatWeekday(d) {$/;"	f
+formatWeekdayNumberMonday	.clinic/148579.clinic-flame.html	/^function formatWeekdayNumberMonday(d) {$/;"	f
+formatWeekdayNumberSunday	.clinic/148579.clinic-flame.html	/^function formatWeekdayNumberSunday(d) {$/;"	f
+formatYear	.clinic/148579.clinic-flame.html	/^function formatYear(d, p) {$/;"	f
+formatYearISO	.clinic/148579.clinic-flame.html	/^function formatYearISO(d, p) {$/;"	f
+formatZone	.clinic/148579.clinic-flame.html	/^function formatZone(d) {$/;"	f
+frameDepth	.clinic/148579.clinic-flame.html	/^  function frameDepth (node) {$/;"	f
+frameWidth	.clinic/148579.clinic-flame.html	/^  function frameWidth (d) {$/;"	f
+freedmanDiaconis	.clinic/148579.clinic-flame.html	/^function freedmanDiaconis(values, min, max) {$/;"	f
+fsum	.clinic/148579.clinic-flame.html	/^function fsum(values, valueof) {$/;"	f
+ga	.clinic/148579.clinic-flame.html	/^function ga(a){var b=4,c="n",d=null;a&&((d=a.match(\/(normal|oblique|italic)\/i))&&d[1]&&(c=d[1].substr(0,1).toLowerCase()),(d=a.match(\/([1-9]00|normal|bold)\/i))&&d[1]&&(\/bold\/i.test(d[1])?b=7:\/[1-9]00\/.test(d[1])&&(b=parseInt(d[1].substr(0,1),10))));return c+b};function ha(a,b){this.c=a;this.f=a.o.document.documentElement;this.h=b;this.a=new F("-");this.j=!1!==b.events;this.g=!1!==b.classes}function ia(a){a.g&&w(a.f,[a.a.c("wf","loading")]);K(a,"loading")}function L(a){if(a.g){var b=y(a.f,a.a.c("wf","active")),c=[],d=[a.a.c("wf","loading")];b||c.push(a.a.c("wf","inactive"));w(a.f,c,d)}K(a,"inactive")}function K(a,b,c){if(a.j&&a.h[b])if(c)a.h[b](c.c,J(c));else a.h[b]()};function ja(){this.c={}}function ka(a,b,c){var d=[],e;for(e in b)if(b.hasOwnProperty(e)){var f=a.c[e];f&&d.push(f(b[e],c))}return d};function M(a,b){this.c=a;this.f=b;this.a=t(this.c,"span",{"aria-hidden":"true"},this.f)}function N(a){u(a.c,"body",a.a)}function O(a){return"display:block;position:absolute;top:-9999px;left:-9999px;font-size:300px;width:auto;height:auto;line-height:normal;margin:0;padding:0;font-variant:normal;white-space:nowrap;font-family:"+I(a.c)+";"+("font-style:"+H(a)+";font-weight:"+(a.f+"00")+";")};function P(a,b,c,d,e,f){this.g=a;this.j=b;this.a=d;this.c=c;this.f=e||3E3;this.h=f||void 0}P.prototype.start=function(){var a=this.c.o.document,b=this,c=q(),d=new Promise(function(d,e){function f(){q()-c>=b.f?e():a.fonts.load(fa(b.a),b.h).then(function(a){1<=a.length?d():setTimeout(f,25)},function(){e()})}f()}),e=null,f=new Promise(function(a,d){e=setTimeout(d,b.f)});Promise.race([f,d]).then(function(){e&&(clearTimeout(e),e=null);b.g(b.a)},function(){b.j(b.a)})};function Q(a,b,c,d,e,f,g){this.v=a;this.B=b;this.c=c;this.a=d;this.s=g||"BESbswy";this.f={};this.w=e||3E3;this.u=f||null;this.m=this.j=this.h=this.g=null;this.g=new M(this.c,this.s);this.h=new M(this.c,this.s);this.j=new M(this.c,this.s);this.m=new M(this.c,this.s);a=new G(this.a.c+",serif",J(this.a));a=O(a);this.g.a.style.cssText=a;a=new G(this.a.c+",sans-serif",J(this.a));a=O(a);this.h.a.style.cssText=a;a=new G("serif",J(this.a));a=O(a);this.j.a.style.cssText=a;a=new G("sans-serif",J(this.a));a=$/;"	f
+gamma	.clinic/148579.clinic-flame.html	/^function gamma(y) {$/;"	f
+genericArray	.clinic/148579.clinic-flame.html	/^function genericArray(a, b) {$/;"	f
+gesture	.clinic/148579.clinic-flame.html	/^  function gesture(that, args, clean) {$/;"	f
+get	.clinic/148579.clinic-flame.html	/^function get(node, id) {$/;"	f
+get	.clinic/148579.clinic-flame.html	/^function get(type, name) {$/;"	f
+getAreaLabeler	.clinic/148579.clinic-flame.html	/^function getAreaLabeler (bindTo) {$/;"	f
+getChildrenHtml	.clinic/148579.clinic-flame.html	/^function getChildrenHtml (key) {$/;"	f
+getFlatArray	.clinic/148579.clinic-flame.html	/^function getFlatArray (children) {$/;"	f
+getFrameLabeler	.clinic/148579.clinic-flame.html	/^function getFrameLabeler (bindTo) {$/;"	f
+getFrameRenderer	.clinic/148579.clinic-flame.html	/^function getFrameRenderer (bindTo) {$/;"	f
+getNoDataNode	.clinic/148579.clinic-flame.html	/^function getNoDataNode () {$/;"	f
+getNodeAt	.clinic/148579.clinic-flame.html	/^  function getNodeAt (canvas, offsetX, offsetY) {$/;"	f
+getNodeRect	.clinic/148579.clinic-flame.html	/^  function getNodeRect (node) {$/;"	f
+getSiblings	.clinic/148579.clinic-flame.html	/^  function getSiblings (d) {$/;"	f
+gray	.clinic/148579.clinic-flame.html	/^function gray(l, opacity) {$/;"	f
+greatest	.clinic/148579.clinic-flame.html	/^function greatest(values, compare = ascending) {$/;"	f
+greatestIndex	.clinic/148579.clinic-flame.html	/^function greatestIndex(values, compare = ascending) {$/;"	f
+group	.clinic/148579.clinic-flame.html	/^function group(values, ...keys) {$/;"	f
+groupSort	.clinic/148579.clinic-flame.html	/^function groupSort(values, reduce, key) {$/;"	f
+groups	.clinic/148579.clinic-flame.html	/^function groups(values, ...keys) {$/;"	f
+hcl	.clinic/148579.clinic-flame.html	/^function hcl(h, c, l, opacity) {$/;"	f
+hcl	.clinic/148579.clinic-flame.html	/^function hcl(hue) {$/;"	f
+hcl2lab	.clinic/148579.clinic-flame.html	/^function hcl2lab(o) {$/;"	f
+hclConvert	.clinic/148579.clinic-flame.html	/^function hclConvert(o) {$/;"	f
+heatColor	.clinic/148579.clinic-flame.html	/^function heatColor (decimal, opacity) {$/;"	f
+hex	.clinic/148579.clinic-flame.html	/^function hex(value) {$/;"	f
+hide	.clinic/148579.clinic-flame.html	/^  function hide (d) {$/;"	f
+hideSiblings	.clinic/148579.clinic-flame.html	/^  function hideSiblings (d) {$/;"	f
+hideTooltip	.clinic/148579.clinic-flame.html	/^  function hideTooltip () {$/;"	f
+hierarchy	.clinic/148579.clinic-flame.html	/^function hierarchy(data, children) {$/;"	f
+histogram	.clinic/148579.clinic-flame.html	/^  function histogram(data) {$/;"	f
+hsl	.clinic/148579.clinic-flame.html	/^function hsl(h, s, l, opacity) {$/;"	f
+hsl	.clinic/148579.clinic-flame.html	/^function hsl(hue) {$/;"	f
+hsl2rgb	.clinic/148579.clinic-flame.html	/^function hsl2rgb(h, m1, m2) {$/;"	f
+hslConvert	.clinic/148579.clinic-flame.html	/^function hslConvert(o) {$/;"	f
+hsla	.clinic/148579.clinic-flame.html	/^function hsla(h, s, l, a) {$/;"	f
+htmlConstant	.clinic/148579.clinic-flame.html	/^function htmlConstant(value) {$/;"	f
+htmlFunction	.clinic/148579.clinic-flame.html	/^function htmlFunction(value) {$/;"	f
+htmlRemove	.clinic/148579.clinic-flame.html	/^function htmlRemove() {$/;"	f
+hue	.clinic/148579.clinic-flame.html	/^function hue(a, b) {$/;"	f
+i	bench/raw.js	/^let i = 0$/;"	V
+identity	.clinic/148579.clinic-flame.html	/^function identity(domain) {$/;"	f
+identity	.clinic/148579.clinic-flame.html	/^function identity(x) {$/;"	f
+index	.clinic/148579.clinic-flame.html	/^function index() {$/;"	f
+index	.clinic/148579.clinic-flame.html	/^function index(values, ...keys) {$/;"	f
+indexes	.clinic/148579.clinic-flame.html	/^function indexes(values, ...keys) {$/;"	f
+inherit	.clinic/148579.clinic-flame.html	/^function inherit(node, id) {$/;"	f
+init	.clinic/148579.clinic-flame.html	/^function init(node, id) {$/;"	f
+initInterpolator	.clinic/148579.clinic-flame.html	/^function initInterpolator(domain, interpolator) {$/;"	f
+initRange	.clinic/148579.clinic-flame.html	/^function initRange(domain, range) {$/;"	f
+intern_delete	.clinic/148579.clinic-flame.html	/^function intern_delete({_intern, _key}, value) {$/;"	f
+intern_get	.clinic/148579.clinic-flame.html	/^function intern_get({_intern, _key}, value) {$/;"	f
+intern_set	.clinic/148579.clinic-flame.html	/^function intern_set({_intern, _key}, value) {$/;"	f
+interpolate	.clinic/148579.clinic-flame.html	/^function interpolate (start, end, ease) {$/;"	f
+interpolate	.clinic/148579.clinic-flame.html	/^function interpolate(a, b) {$/;"	f
+interpolateTransform	.clinic/148579.clinic-flame.html	/^function interpolateTransform(parse, pxComma, pxParen, degParen) {$/;"	f
+interrupt	.clinic/148579.clinic-flame.html	/^function interrupt(node, name) {$/;"	f
+intersection	.clinic/148579.clinic-flame.html	/^function intersection(values, ...others) {$/;"	f
+intersects	.clinic/148579.clinic-flame.html	/^function intersects(a, b) {$/;"	f
+interval	.clinic/148579.clinic-flame.html	/^  function interval(date) {$/;"	f
+invokeFunc	.clinic/148579.clinic-flame.html	/^  function invokeFunc(time) {$/;"	f
+isNodeExcluded	.clinic/148579.clinic-flame.html	/^function isNodeExcluded (node, exclude = this.exclude) {$/;"	f
+isNumberArray	.clinic/148579.clinic-flame.html	/^function isNumberArray(x) {$/;"	f
+isObject	.clinic/148579.clinic-flame.html	/^function isObject(value) {$/;"	f
+isObjectLike	.clinic/148579.clinic-flame.html	/^function isObjectLike(value) {$/;"	f
+isSymbol	.clinic/148579.clinic-flame.html	/^function isSymbol(value) {$/;"	f
+keyof	.clinic/148579.clinic-flame.html	/^function keyof(value) {$/;"	f
+la	.clinic/148579.clinic-flame.html	/^function la(a,b,c){for(var d in R)if(R.hasOwnProperty(d)&&b===a.f[R[d]]&&c===a.f[R[d]])return!0;return!1}function U(a){var b=a.g.a.offsetWidth,c=a.h.a.offsetWidth,d;(d=b===a.f.serif&&c===a.f["sans-serif"])||(d=T()&&la(a,b,c));d?q()-a.A>=a.w?T()&&la(a,b,c)&&(null===a.u||a.u.hasOwnProperty(a.a.c))?V(a,a.v):V(a,a.B):ma(a):V(a,a.v)}function ma(a){setTimeout(p(function(){U(this)},a),50)}function V(a,b){setTimeout(p(function(){v(this.g.a);v(this.h.a);v(this.j.a);v(this.m.a);b(this.a)},a),0)};function W(a,b,c){this.c=a;this.a=b;this.f=0;this.m=this.j=!1;this.s=c}var X=null;W.prototype.g=function(a){var b=this.a;b.g&&w(b.f,[b.a.c("wf",a.c,J(a).toString(),"active")],[b.a.c("wf",a.c,J(a).toString(),"loading"),b.a.c("wf",a.c,J(a).toString(),"inactive")]);K(b,"fontactive",a);this.m=!0;na(this)};$/;"	f
+lab	.clinic/148579.clinic-flame.html	/^function lab(l, a, b, opacity) {$/;"	f
+lab	.clinic/148579.clinic-flame.html	/^function lab(start, end) {$/;"	f
+lab2xyz	.clinic/148579.clinic-flame.html	/^function lab2xyz(t) {$/;"	f
+labConvert	.clinic/148579.clinic-flame.html	/^function labConvert(o) {$/;"	f
+labelName	.clinic/148579.clinic-flame.html	/^  function labelName (d) {$/;"	f
+labelStack	.clinic/148579.clinic-flame.html	/^  function labelStack (d) {$/;"	f
+lch	.clinic/148579.clinic-flame.html	/^function lch(l, c, h, opacity) {$/;"	f
+leadingEdge	.clinic/148579.clinic-flame.html	/^  function leadingEdge(time) {$/;"	f
+leafLeft	.clinic/148579.clinic-flame.html	/^function leafLeft(node) {$/;"	f
+leafRight	.clinic/148579.clinic-flame.html	/^function leafRight(node) {$/;"	f
+least	.clinic/148579.clinic-flame.html	/^function least(values, compare = ascending) {$/;"	f
+leastCommonAncestor	.clinic/148579.clinic-flame.html	/^function leastCommonAncestor(a, b) {$/;"	f
+leastIndex	.clinic/148579.clinic-flame.html	/^function leastIndex(values, compare = ascending) {$/;"	f
+left	.clinic/148579.clinic-flame.html	/^  function left(a, x, lo, hi) {$/;"	f
+length	.clinic/148579.clinic-flame.html	/^function length(d) {$/;"	f
+linear	.clinic/148579.clinic-flame.html	/^function linear() {$/;"	f
+linear	.clinic/148579.clinic-flame.html	/^function linear(a, d) {$/;"	f
+linear	.clinic/148579.clinic-flame.html	/^function linear(t) {$/;"	f
+linearish	.clinic/148579.clinic-flame.html	/^function linearish(scale) {$/;"	f
+listenerCount	.clinic/148579.clinic-flame.html	/^function listenerCount(type) {$/;"	f
+local	.clinic/148579.clinic-flame.html	/^function local() {$/;"	f
+localDate	.clinic/148579.clinic-flame.html	/^function localDate(d) {$/;"	f
+log	.clinic/148579.clinic-flame.html	/^function log() {$/;"	f
+loggish	.clinic/148579.clinic-flame.html	/^function loggish(transform) {$/;"	f
+logp	.clinic/148579.clinic-flame.html	/^function logp(base) {$/;"	f
+lower	.clinic/148579.clinic-flame.html	/^function lower() {$/;"	f
+lrgb2rgb	.clinic/148579.clinic-flame.html	/^function lrgb2rgb(x) {$/;"	f
+main	bench/fetch.js	/^async function main() {$/;"	F
+main	bench/raw.js	/^async function main() {$/;"	F
+makeParallelRequests	bench/fetch.js	/^function makeParallelRequests (cb) {$/;"	F
+map	.clinic/148579.clinic-flame.html	/^function map(values, mapper) {$/;"	f
+matcher	.clinic/148579.clinic-flame.html	/^function matcher(selector) {$/;"	f
+max	.clinic/148579.clinic-flame.html	/^function max(values, valueof) {$/;"	f
+maxDepth	.clinic/148579.clinic-flame.html	/^function maxDepth (tree) {$/;"	f
+maxIndex	.clinic/148579.clinic-flame.html	/^function maxIndex(values, valueof) {$/;"	f
+maxY	.clinic/148579.clinic-flame.html	/^function maxY(children) {$/;"	f
+maxYReduce	.clinic/148579.clinic-flame.html	/^function maxYReduce(y, c) {$/;"	f
+mean	.clinic/148579.clinic-flame.html	/^function mean(values, valueof) {$/;"	f
+meanX	.clinic/148579.clinic-flame.html	/^function meanX(children) {$/;"	f
+meanXReduce	.clinic/148579.clinic-flame.html	/^function meanXReduce(x, c) {$/;"	f
+median	.clinic/148579.clinic-flame.html	/^function median(values, valueof) {$/;"	f
+merge	.clinic/148579.clinic-flame.html	/^function merge(arrays) {$/;"	f
+min	.clinic/148579.clinic-flame.html	/^function min(values, valueof) {$/;"	f
+minIndex	.clinic/148579.clinic-flame.html	/^function minIndex(values, valueof) {$/;"	f
+mouse	.clinic/148579.clinic-flame.html	/^function mouse(node) {$/;"	f
+mousedowned	.clinic/148579.clinic-flame.html	/^  function mousedowned() {$/;"	f
+mousemoved	.clinic/148579.clinic-flame.html	/^    function mousemoved() {$/;"	f
+mousemoved	.clinic/148579.clinic-flame.html	/^  function mousemoved() {$/;"	f
+mouseupped	.clinic/148579.clinic-flame.html	/^    function mouseupped() {$/;"	f
+mouseupped	.clinic/148579.clinic-flame.html	/^  function mouseupped() {$/;"	f
+moveSubtree	.clinic/148579.clinic-flame.html	/^function moveSubtree(wm, wp, shift) {$/;"	f
+namespace	.clinic/148579.clinic-flame.html	/^function namespace(name) {$/;"	f
+nap	.clinic/148579.clinic-flame.html	/^function nap() {$/;"	f
+nest	.clinic/148579.clinic-flame.html	/^function nest(values, map, reduce, keys) {$/;"	f
+newDate	.clinic/148579.clinic-flame.html	/^function newDate(y, m, d) {$/;"	f
+newFormat	.clinic/148579.clinic-flame.html	/^  function newFormat(specifier) {$/;"	f
+newFormat	.clinic/148579.clinic-flame.html	/^  function newFormat(specifier, formats) {$/;"	f
+newId	.clinic/148579.clinic-flame.html	/^function newId() {$/;"	f
+newInterval	.clinic/148579.clinic-flame.html	/^function newInterval(floori, offseti, count, field) {$/;"	f
+newParse	.clinic/148579.clinic-flame.html	/^  function newParse(specifier, Z) {$/;"	f
+nextAncestor	.clinic/148579.clinic-flame.html	/^function nextAncestor(vim, v, ancestor) {$/;"	f
+nextFrame	.clinic/148579.clinic-flame.html	/^  function nextFrame () {$/;"	f
+nextLeft	.clinic/148579.clinic-flame.html	/^function nextLeft(v) {$/;"	f
+nextRight	.clinic/148579.clinic-flame.html	/^function nextRight(v) {$/;"	f
+nice	.clinic/148579.clinic-flame.html	/^function nice(domain, interval) {$/;"	f
+nice	.clinic/148579.clinic-flame.html	/^function nice(start, stop, count) {$/;"	f
+node_ancestors	.clinic/148579.clinic-flame.html	/^function node_ancestors() {$/;"	f
+node_copy	.clinic/148579.clinic-flame.html	/^function node_copy() {$/;"	f
+node_count	.clinic/148579.clinic-flame.html	/^function node_count() {$/;"	f
+node_descendants	.clinic/148579.clinic-flame.html	/^function node_descendants() {$/;"	f
+node_each	.clinic/148579.clinic-flame.html	/^function node_each(callback) {$/;"	f
+node_eachAfter	.clinic/148579.clinic-flame.html	/^function node_eachAfter(callback) {$/;"	f
+node_eachBefore	.clinic/148579.clinic-flame.html	/^function node_eachBefore(callback) {$/;"	f
+node_leaves	.clinic/148579.clinic-flame.html	/^function node_leaves() {$/;"	f
+node_links	.clinic/148579.clinic-flame.html	/^function node_links() {$/;"	f
+node_path	.clinic/148579.clinic-flame.html	/^function node_path(end) {$/;"	f
+node_sort	.clinic/148579.clinic-flame.html	/^function node_sort(compare) {$/;"	f
+node_sum	.clinic/148579.clinic-flame.html	/^function node_sum(value) {$/;"	f
+nodrag	.clinic/148579.clinic-flame.html	/^function nodrag(view) {$/;"	f
+noevent	.clinic/148579.clinic-flame.html	/^function noevent() {$/;"	f
+nogamma	.clinic/148579.clinic-flame.html	/^function nogamma(a, b) {$/;"	f
+none	.clinic/148579.clinic-flame.html	/^function none() {}$/;"	f
+noop	.clinic/148579.clinic-flame.html	/^function noop() {}$/;"	f
+nopropagation	.clinic/148579.clinic-flame.html	/^function nopropagation() {$/;"	f
+normalize	.clinic/148579.clinic-flame.html	/^function normalize(a, b) {$/;"	f
+now	.clinic/148579.clinic-flame.html	/^function now() {$/;"	f
+number	.clinic/148579.clinic-flame.html	/^function number(a, b) {$/;"	f
+number	.clinic/148579.clinic-flame.html	/^function number(t) {$/;"	f
+number	.clinic/148579.clinic-flame.html	/^function number(x) {$/;"	f
+numberArray	.clinic/148579.clinic-flame.html	/^function numberArray(a, b) {$/;"	f
+object	.clinic/148579.clinic-flame.html	/^function object(a, b) {$/;"	f
+onAdd	.clinic/148579.clinic-flame.html	/^function onAdd(typename, value, capture) {$/;"	f
+onFunction	.clinic/148579.clinic-flame.html	/^function onFunction(id, name, listener) {$/;"	f
+onRemove	.clinic/148579.clinic-flame.html	/^function onRemove(typename) {$/;"	f
+onTransitionEnd	.clinic/148579.clinic-flame.html	/^  function onTransitionEnd () {$/;"	f
+once	.clinic/148579.clinic-flame.html	/^function once(emitter, name) {$/;"	f
+onceWrapper	.clinic/148579.clinic-flame.html	/^function onceWrapper() {$/;"	f
+one	.clinic/148579.clinic-flame.html	/^function one(b) {$/;"	f
+onresize	.clinic/148579.clinic-flame.html	/^  function onresize () {$/;"	f
+optional	.clinic/148579.clinic-flame.html	/^function optional(f) {$/;"	f
+ordinal	.clinic/148579.clinic-flame.html	/^function ordinal() {$/;"	f
+pack	.clinic/148579.clinic-flame.html	/^  function pack(root) {$/;"	f
+packChildren	.clinic/148579.clinic-flame.html	/^function packChildren(padding, k) {$/;"	f
+packEnclose	.clinic/148579.clinic-flame.html	/^function packEnclose(circles) {$/;"	f
+pad	.clinic/148579.clinic-flame.html	/^function pad(value, fill, width) {$/;"	f
+pair	.clinic/148579.clinic-flame.html	/^function pair(a, b) {$/;"	f
+pairs	.clinic/148579.clinic-flame.html	/^function pairs(values, pairof = pair) {$/;"	f
+parallelRequests	bench/fetch.js	/^const parallelRequests = 1000$/;"	V
+parseCss	.clinic/148579.clinic-flame.html	/^function parseCss(value) {$/;"	f
+parseDayOfMonth	.clinic/148579.clinic-flame.html	/^function parseDayOfMonth(d, string, i) {$/;"	f
+parseDayOfYear	.clinic/148579.clinic-flame.html	/^function parseDayOfYear(d, string, i) {$/;"	f
+parseFullYear	.clinic/148579.clinic-flame.html	/^function parseFullYear(d, string, i) {$/;"	f
+parseHour24	.clinic/148579.clinic-flame.html	/^function parseHour24(d, string, i) {$/;"	f
+parseIsoNative	.clinic/148579.clinic-flame.html	/^function parseIsoNative(string) {$/;"	f
+parseLiteralPercent	.clinic/148579.clinic-flame.html	/^function parseLiteralPercent(d, string, i) {$/;"	f
+parseLocaleDate	.clinic/148579.clinic-flame.html	/^  function parseLocaleDate(d, string, i) {$/;"	f
+parseLocaleDateTime	.clinic/148579.clinic-flame.html	/^  function parseLocaleDateTime(d, string, i) {$/;"	f
+parseLocaleTime	.clinic/148579.clinic-flame.html	/^  function parseLocaleTime(d, string, i) {$/;"	f
+parseMicroseconds	.clinic/148579.clinic-flame.html	/^function parseMicroseconds(d, string, i) {$/;"	f
+parseMilliseconds	.clinic/148579.clinic-flame.html	/^function parseMilliseconds(d, string, i) {$/;"	f
+parseMinutes	.clinic/148579.clinic-flame.html	/^function parseMinutes(d, string, i) {$/;"	f
+parseMonth	.clinic/148579.clinic-flame.html	/^  function parseMonth(d, string, i) {$/;"	f
+parseMonthNumber	.clinic/148579.clinic-flame.html	/^function parseMonthNumber(d, string, i) {$/;"	f
+parsePeriod	.clinic/148579.clinic-flame.html	/^  function parsePeriod(d, string, i) {$/;"	f
+parseQuarter	.clinic/148579.clinic-flame.html	/^function parseQuarter(d, string, i) {$/;"	f
+parseSeconds	.clinic/148579.clinic-flame.html	/^function parseSeconds(d, string, i) {$/;"	f
+parseShortMonth	.clinic/148579.clinic-flame.html	/^  function parseShortMonth(d, string, i) {$/;"	f
+parseShortWeekday	.clinic/148579.clinic-flame.html	/^  function parseShortWeekday(d, string, i) {$/;"	f
+parseSpecifier	.clinic/148579.clinic-flame.html	/^  function parseSpecifier(d, specifier, string, j) {$/;"	f
+parseSvg	.clinic/148579.clinic-flame.html	/^function parseSvg(value) {$/;"	f
+parseTypenames	.clinic/148579.clinic-flame.html	/^function parseTypenames(typenames) {$/;"	f
+parseTypenames	.clinic/148579.clinic-flame.html	/^function parseTypenames(typenames, types) {$/;"	f
+parseUnixTimestamp	.clinic/148579.clinic-flame.html	/^function parseUnixTimestamp(d, string, i) {$/;"	f
+parseUnixTimestampSeconds	.clinic/148579.clinic-flame.html	/^function parseUnixTimestampSeconds(d, string, i) {$/;"	f
+parseWeekNumberISO	.clinic/148579.clinic-flame.html	/^function parseWeekNumberISO(d, string, i) {$/;"	f
+parseWeekNumberMonday	.clinic/148579.clinic-flame.html	/^function parseWeekNumberMonday(d, string, i) {$/;"	f
+parseWeekNumberSunday	.clinic/148579.clinic-flame.html	/^function parseWeekNumberSunday(d, string, i) {$/;"	f
+parseWeekday	.clinic/148579.clinic-flame.html	/^  function parseWeekday(d, string, i) {$/;"	f
+parseWeekdayNumberMonday	.clinic/148579.clinic-flame.html	/^function parseWeekdayNumberMonday(d, string, i) {$/;"	f
+parseWeekdayNumberSunday	.clinic/148579.clinic-flame.html	/^function parseWeekdayNumberSunday(d, string, i) {$/;"	f
+parseYear	.clinic/148579.clinic-flame.html	/^function parseYear(d, string, i) {$/;"	f
+parseZone	.clinic/148579.clinic-flame.html	/^function parseZone(d, string, i) {$/;"	f
+partition	.clinic/148579.clinic-flame.html	/^  function partition(i, j, value, x0, y0, x1, y1) {$/;"	f
+partition	.clinic/148579.clinic-flame.html	/^  function partition(root) {$/;"	f
+partition	.clinic/148579.clinic-flame.html	/^function partition() {$/;"	f
+permute	.clinic/148579.clinic-flame.html	/^function permute(source, keys) {$/;"	f
+piecewise	.clinic/148579.clinic-flame.html	/^function piecewise(interpolate, values) {$/;"	f
+place	.clinic/148579.clinic-flame.html	/^function place(b, a, c) {$/;"	f
+point	.clinic/148579.clinic-flame.html	/^function point() {$/;"	f
+point	.clinic/148579.clinic-flame.html	/^function point(node, event) {$/;"	f
+pointish	.clinic/148579.clinic-flame.html	/^function pointish(scale) {$/;"	f
+poke	.clinic/148579.clinic-flame.html	/^function poke() {$/;"	f
+polyIn	.clinic/148579.clinic-flame.html	/^  function polyIn(t) {$/;"	f
+polyInOut	.clinic/148579.clinic-flame.html	/^  function polyInOut(t) {$/;"	f
+polyOut	.clinic/148579.clinic-flame.html	/^  function polyOut(t) {$/;"	f
+polymap	.clinic/148579.clinic-flame.html	/^function polymap(domain, range, interpolate) {$/;"	f
+pop	.clinic/148579.clinic-flame.html	/^  function pop(s) {$/;"	f
+positionNode	.clinic/148579.clinic-flame.html	/^  function positionNode(dy, n) {$/;"	f
+positionNode	.clinic/148579.clinic-flame.html	/^  function positionNode(node) {$/;"	f
+pow	.clinic/148579.clinic-flame.html	/^function pow() {$/;"	f
+pow10	.clinic/148579.clinic-flame.html	/^function pow10(x) {$/;"	f
+powish	.clinic/148579.clinic-flame.html	/^function powish(transform) {$/;"	f
+powp	.clinic/148579.clinic-flame.html	/^function powp(base) {$/;"	f
+precisionFixed	.clinic/148579.clinic-flame.html	/^function precisionFixed(step) {$/;"	f
+precisionPrefix	.clinic/148579.clinic-flame.html	/^function precisionPrefix(step, value) {$/;"	f
+precisionRound	.clinic/148579.clinic-flame.html	/^function precisionRound(step, max) {$/;"	f
+prependListener	.clinic/148579.clinic-flame.html	/^    function prependListener(type, listener) {$/;"	f
+prependOnceListener	.clinic/148579.clinic-flame.html	/^    function prependOnceListener(type, listener) {$/;"	f
+preventHideTooltip	.clinic/148579.clinic-flame.html	/^  function preventHideTooltip () {$/;"	f
+propertyConstant	.clinic/148579.clinic-flame.html	/^function propertyConstant(name, value) {$/;"	f
+propertyFunction	.clinic/148579.clinic-flame.html	/^function propertyFunction(name, value) {$/;"	f
+propertyRemove	.clinic/148579.clinic-flame.html	/^function propertyRemove(name) {$/;"	f
+pull	bench/raw.js	/^  pull: function (controller) {$/;"	M
+qa	.clinic/148579.clinic-flame.html	/^function qa(a,b,c,d,e){var f=0==--a.h;(a.f||a.g)&&setTimeout(function(){var a=e||null,m=d||null||{};if(0===c.length&&f)L(b.a);else{b.f+=c.length;f&&(b.j=f);var h,l=[];for(h=0;h<c.length;h++){var k=c[h],n=m[k.c],r=b.a,x=k;r.g&&w(r.f,[r.a.c("wf",x.c,J(x).toString(),"loading")]);K(r,"fontloading",x);r=null;if(null===X)if(window.FontFace){var x=\/Gecko.*Firefox\\\/(\\d+)\/.exec(window.navigator.userAgent),xa=\/OS X.*Version\\\/10\\..*Safari\/.exec(window.navigator.userAgent)&&\/Apple\/.exec(window.navigator.vendor);$/;"	f
+quadIn	.clinic/148579.clinic-flame.html	/^function quadIn(t) {$/;"	f
+quadInOut	.clinic/148579.clinic-flame.html	/^function quadInOut(t) {$/;"	f
+quadOut	.clinic/148579.clinic-flame.html	/^function quadOut(t) {$/;"	f
+quantile	.clinic/148579.clinic-flame.html	/^function quantile() {$/;"	f
+quantile	.clinic/148579.clinic-flame.html	/^function quantile(values, p, valueof) {$/;"	f
+quantileSorted	.clinic/148579.clinic-flame.html	/^function quantileSorted(values, p, valueof = number) {$/;"	f
+quantize	.clinic/148579.clinic-flame.html	/^function quantize() {$/;"	f
+quantize	.clinic/148579.clinic-flame.html	/^function quantize(interpolator, n) {$/;"	f
+querystring	.clinic/148579.clinic-flame.html	/^function querystring(query) {$/;"	f
+querystringify	.clinic/148579.clinic-flame.html	/^function querystringify(obj, prefix) {$/;"	f
+quickselect	.clinic/148579.clinic-flame.html	/^function quickselect(array, k, left = 0, right = array.length - 1, compare = ascending) {$/;"	f
+radial	.clinic/148579.clinic-flame.html	/^function radial() {$/;"	f
+radiusLeaf	.clinic/148579.clinic-flame.html	/^function radiusLeaf(radius) {$/;"	f
+raise	.clinic/148579.clinic-flame.html	/^function raise() {$/;"	f
+range	.clinic/148579.clinic-flame.html	/^  function range(interpolate) {$/;"	f
+range	.clinic/148579.clinic-flame.html	/^function range(start, stop, step) {$/;"	f
+readable	bench/raw.js	/^const readable = new ReadableStream({$/;"	V
+reduce	.clinic/148579.clinic-flame.html	/^function reduce(values, reducer, value) {$/;"	f
+reducer	.clinic/148579.clinic-flame.html	/^function reducer(reduce) {$/;"	f
+reflect	.clinic/148579.clinic-flame.html	/^function reflect(f) {$/;"	f
+remainingWait	.clinic/148579.clinic-flame.html	/^  function remainingWait(time) {$/;"	f
+remove	.clinic/148579.clinic-flame.html	/^function remove() {$/;"	f
+removeAllListeners	.clinic/148579.clinic-flame.html	/^    function removeAllListeners(type) {$/;"	f
+removeFunction	.clinic/148579.clinic-flame.html	/^function removeFunction(id) {$/;"	f
+removeListener	.clinic/148579.clinic-flame.html	/^    function removeListener(type, listener) {$/;"	f
+render	.clinic/148579.clinic-flame.html	/^        function render (canvas, nodes, ease) {$/;"	f
+render	.clinic/148579.clinic-flame.html	/^function render () {$/;"	f
+renderAreaLabel	.clinic/148579.clinic-flame.html	/^function renderAreaLabel (locals, rect, priorSiblingWidth, lineWidth, lineAlpha) {$/;"	f
+renderFrameLabel	.clinic/148579.clinic-flame.html	/^function renderFrameLabel (frameHeight, options) {$/;"	f
+renderHeatBar	.clinic/148579.clinic-flame.html	/^  function renderHeatBar (context, node, x, y, width) {$/;"	f
+renderHeatBar	.clinic/148579.clinic-flame.html	/^function renderHeatBar (context, nodeData, colorHash, rect) {$/;"	f
+renderNode	.clinic/148579.clinic-flame.html	/^  function renderNode (context, node, ease, state) {$/;"	f
+renderStackFrame	.clinic/148579.clinic-flame.html	/^function renderStackFrame (globals, locals, rect) {$/;"	f
+requestListener	server.js	/^const requestListener = function (req, res) {$/;"	F
+required	.clinic/148579.clinic-flame.html	/^function required(f) {$/;"	f
+requote	.clinic/148579.clinic-flame.html	/^function requote(s) {$/;"	f
+rescale	.clinic/148579.clinic-flame.html	/^  function rescale() {$/;"	f
+resolver	.clinic/148579.clinic-flame.html	/^    function resolver() {$/;"	f
+resquarify	.clinic/148579.clinic-flame.html	/^  function resquarify(parent, x0, y0, x1, y1) {$/;"	f
+reverse	.clinic/148579.clinic-flame.html	/^function reverse(values) {$/;"	f
+rgb	.clinic/148579.clinic-flame.html	/^  function rgb(start, end) {$/;"	f
+rgb	.clinic/148579.clinic-flame.html	/^function rgb(r, g, b, opacity) {$/;"	f
+rgb2lrgb	.clinic/148579.clinic-flame.html	/^function rgb2lrgb(x) {$/;"	f
+rgbConvert	.clinic/148579.clinic-flame.html	/^function rgbConvert(o) {$/;"	f
+rgbSpline	.clinic/148579.clinic-flame.html	/^function rgbSpline(spline) {$/;"	f
+rgb_formatHex	.clinic/148579.clinic-flame.html	/^function rgb_formatHex() {$/;"	f
+rgb_formatRgb	.clinic/148579.clinic-flame.html	/^function rgb_formatRgb() {$/;"	f
+rgba	.clinic/148579.clinic-flame.html	/^function rgba(r, g, b, a) {$/;"	f
+rgbn	.clinic/148579.clinic-flame.html	/^function rgbn(n) {$/;"	f
+right	.clinic/148579.clinic-flame.html	/^  function right(a, x, lo, hi) {$/;"	f
+rollup	.clinic/148579.clinic-flame.html	/^function rollup(values, reduce, ...keys) {$/;"	f
+rollups	.clinic/148579.clinic-flame.html	/^function rollups(values, reduce, ...keys) {$/;"	f
+rootNodeLabel	.clinic/148579.clinic-flame.html	/^function rootNodeLabel (context, xMid, y, availableWidth, appName) {$/;"	f
+rotate	.clinic/148579.clinic-flame.html	/^  function rotate(a, b, s, q) {$/;"	f
+round	.clinic/148579.clinic-flame.html	/^function round(a, b) {$/;"	f
+roundNode	.clinic/148579.clinic-flame.html	/^function roundNode(node) {$/;"	f
+runClearTimeout	.clinic/148579.clinic-flame.html	/^function runClearTimeout(marker) {$/;"	f
+runTimeout	.clinic/148579.clinic-flame.html	/^function runTimeout(fun) {$/;"	f
+sameArea	.clinic/148579.clinic-flame.html	/^function sameArea (nodeDataA, nodeDataB) {$/;"	f
+samples	bench/fetch.js	/^const samples = 100$/;"	V
+saveAnimationStartingPoints	.clinic/148579.clinic-flame.html	/^  function saveAnimationStartingPoints () {$/;"	f
+scale	.clinic/148579.clinic-flame.html	/^  function scale(d) {$/;"	f
+scale	.clinic/148579.clinic-flame.html	/^  function scale(transform, k) {$/;"	f
+scale	.clinic/148579.clinic-flame.html	/^  function scale(x) {$/;"	f
+scale	.clinic/148579.clinic-flame.html	/^  function scale(xa, ya, xb, yb, s, q) {$/;"	f
+scan	.clinic/148579.clinic-flame.html	/^function scan(values, compare) {$/;"	f
+schedule	.clinic/148579.clinic-flame.html	/^  function schedule(elapsed) {$/;"	f
+schedule	.clinic/148579.clinic-flame.html	/^  function schedule(transition, transform, point) {$/;"	f
+schedule	.clinic/148579.clinic-flame.html	/^function schedule(node, name, id, index, group, timing) {$/;"	f
+score	.clinic/148579.clinic-flame.html	/^function score(node) {$/;"	f
+scott	.clinic/148579.clinic-flame.html	/^function scott(values, min, max) {$/;"	f
+searchTree	.clinic/148579.clinic-flame.html	/^  function searchTree (d, term, color) {$/;"	f
+secondWalk	.clinic/148579.clinic-flame.html	/^  function secondWalk(v) {$/;"	f
+select	.clinic/148579.clinic-flame.html	/^function select(selector) {$/;"	f
+selectAll	.clinic/148579.clinic-flame.html	/^function selectAll(selector) {$/;"	f
+selection	.clinic/148579.clinic-flame.html	/^function selection() {$/;"	f
+selection_append	.clinic/148579.clinic-flame.html	/^function selection_append(name) {$/;"	f
+selection_attr	.clinic/148579.clinic-flame.html	/^function selection_attr(name, value) {$/;"	f
+selection_call	.clinic/148579.clinic-flame.html	/^function selection_call() {$/;"	f
+selection_classed	.clinic/148579.clinic-flame.html	/^function selection_classed(name, value) {$/;"	f
+selection_clone	.clinic/148579.clinic-flame.html	/^function selection_clone(deep) {$/;"	f
+selection_cloneDeep	.clinic/148579.clinic-flame.html	/^function selection_cloneDeep() {$/;"	f
+selection_cloneShallow	.clinic/148579.clinic-flame.html	/^function selection_cloneShallow() {$/;"	f
+selection_data	.clinic/148579.clinic-flame.html	/^function selection_data(value, key) {$/;"	f
+selection_datum	.clinic/148579.clinic-flame.html	/^function selection_datum(value) {$/;"	f
+selection_dispatch	.clinic/148579.clinic-flame.html	/^function selection_dispatch(type, params) {$/;"	f
+selection_each	.clinic/148579.clinic-flame.html	/^function selection_each(callback) {$/;"	f
+selection_empty	.clinic/148579.clinic-flame.html	/^function selection_empty() {$/;"	f
+selection_enter	.clinic/148579.clinic-flame.html	/^function selection_enter() {$/;"	f
+selection_exit	.clinic/148579.clinic-flame.html	/^function selection_exit() {$/;"	f
+selection_filter	.clinic/148579.clinic-flame.html	/^function selection_filter(match) {$/;"	f
+selection_html	.clinic/148579.clinic-flame.html	/^function selection_html(value) {$/;"	f
+selection_insert	.clinic/148579.clinic-flame.html	/^function selection_insert(name, before) {$/;"	f
+selection_interrupt	.clinic/148579.clinic-flame.html	/^function selection_interrupt(name) {$/;"	f
+selection_join	.clinic/148579.clinic-flame.html	/^function selection_join(onenter, onupdate, onexit) {$/;"	f
+selection_lower	.clinic/148579.clinic-flame.html	/^function selection_lower() {$/;"	f
+selection_merge	.clinic/148579.clinic-flame.html	/^function selection_merge(selection) {$/;"	f
+selection_node	.clinic/148579.clinic-flame.html	/^function selection_node() {$/;"	f
+selection_nodes	.clinic/148579.clinic-flame.html	/^function selection_nodes() {$/;"	f
+selection_on	.clinic/148579.clinic-flame.html	/^function selection_on(typename, value, capture) {$/;"	f
+selection_order	.clinic/148579.clinic-flame.html	/^function selection_order() {$/;"	f
+selection_property	.clinic/148579.clinic-flame.html	/^function selection_property(name, value) {$/;"	f
+selection_raise	.clinic/148579.clinic-flame.html	/^function selection_raise() {$/;"	f
+selection_remove	.clinic/148579.clinic-flame.html	/^function selection_remove() {$/;"	f
+selection_select	.clinic/148579.clinic-flame.html	/^function selection_select(select) {$/;"	f
+selection_selectAll	.clinic/148579.clinic-flame.html	/^function selection_selectAll(select) {$/;"	f
+selection_size	.clinic/148579.clinic-flame.html	/^function selection_size() {$/;"	f
+selection_sort	.clinic/148579.clinic-flame.html	/^function selection_sort(compare) {$/;"	f
+selection_style	.clinic/148579.clinic-flame.html	/^function selection_style(name, value, priority) {$/;"	f
+selection_text	.clinic/148579.clinic-flame.html	/^function selection_text(value) {$/;"	f
+selection_transition	.clinic/148579.clinic-flame.html	/^function selection_transition(name) {$/;"	f
+selector	.clinic/148579.clinic-flame.html	/^function selector(selector) {$/;"	f
+selectorAll	.clinic/148579.clinic-flame.html	/^function selectorAll(selector) {$/;"	f
+sequential	.clinic/148579.clinic-flame.html	/^function sequential() {$/;"	f
+sequentialLog	.clinic/148579.clinic-flame.html	/^function sequentialLog() {$/;"	f
+sequentialPow	.clinic/148579.clinic-flame.html	/^function sequentialPow() {$/;"	f
+sequentialQuantile	.clinic/148579.clinic-flame.html	/^function sequentialQuantile() {$/;"	f
+sequentialSqrt	.clinic/148579.clinic-flame.html	/^function sequentialSqrt() {$/;"	f
+sequentialSymlog	.clinic/148579.clinic-flame.html	/^function sequentialSymlog() {$/;"	f
+set	.clinic/148579.clinic-flame.html	/^function set(node, id) {$/;"	f
+set	.clinic/148579.clinic-flame.html	/^function set(type, name, callback) {$/;"	f
+set	.clinic/148579.clinic-flame.html	/^function set(values) {$/;"	f
+setStackTop	.clinic/148579.clinic-flame.html	/^function setStackTop (node, exclude = this.exclude) {$/;"	f
+shouldInvoke	.clinic/148579.clinic-flame.html	/^  function shouldInvoke(time) {$/;"	f
+show	.clinic/148579.clinic-flame.html	/^  function show (d) {$/;"	f
+showTooltip	.clinic/148579.clinic-flame.html	/^  function showTooltip (node) {$/;"	f
+shuffle	.clinic/148579.clinic-flame.html	/^function shuffle(array) {$/;"	f
+shuffler	.clinic/148579.clinic-flame.html	/^function shuffler(random) {$/;"	f
+siblings	.clinic/148579.clinic-flame.html	/^function siblings(circles) {$/;"	f
+sinIn	.clinic/148579.clinic-flame.html	/^function sinIn(t) {$/;"	f
+sinInOut	.clinic/148579.clinic-flame.html	/^function sinInOut(t) {$/;"	f
+sinOut	.clinic/148579.clinic-flame.html	/^function sinOut(t) {$/;"	f
+sinh	.clinic/148579.clinic-flame.html	/^function sinh(x) {$/;"	f
+sinusoidal	.clinic/148579.clinic-flame.html	/^function sinusoidal (initial, min, max, returnDecimal = false) {$/;"	f
+sizeNode	.clinic/148579.clinic-flame.html	/^  function sizeNode(node) {$/;"	f
+skewX	.clinic/148579.clinic-flame.html	/^  function skewX(a, b, s, q) {$/;"	f
+sleep	.clinic/148579.clinic-flame.html	/^function sleep(time) {$/;"	f
+sliceDice	.clinic/148579.clinic-flame.html	/^function sliceDice(parent, x0, y0, x1, y1) {$/;"	f
+some	.clinic/148579.clinic-flame.html	/^function some(values, test) {$/;"	f
+sort	.clinic/148579.clinic-flame.html	/^function sort(values, ...F) {$/;"	f
+sourceEvent	.clinic/148579.clinic-flame.html	/^function sourceEvent() {$/;"	f
+sparse	.clinic/148579.clinic-flame.html	/^function sparse(update) {$/;"	f
+spliceOne	.clinic/148579.clinic-flame.html	/^function spliceOne(list, index) {$/;"	f
+sqrt	.clinic/148579.clinic-flame.html	/^function sqrt() {$/;"	f
+square	.clinic/148579.clinic-flame.html	/^function square(x) {$/;"	f
+squarify	.clinic/148579.clinic-flame.html	/^  function squarify(parent, x0, y0, x1, y1) {$/;"	f
+squarifyRatio	.clinic/148579.clinic-flame.html	/^function squarifyRatio(ratio, parent, x0, y0, x1, y1) {$/;"	f
+stackTop	.clinic/148579.clinic-flame.html	/^function stackTop (d) {$/;"	f
+start	.clinic/148579.clinic-flame.html	/^  function start(elapsed) {$/;"	f
+start	.clinic/148579.clinic-flame.html	/^function start(name) {$/;"	f
+stop	.clinic/148579.clinic-flame.html	/^  function stop() {$/;"	f
+stratify	.clinic/148579.clinic-flame.html	/^  function stratify(data) {$/;"	f
+stratify	.clinic/148579.clinic-flame.html	/^function stratify() {$/;"	f
+string	.clinic/148579.clinic-flame.html	/^function string(a, b) {$/;"	f
+sturges	.clinic/148579.clinic-flame.html	/^function sturges(values) {$/;"	f
+styleConstant	.clinic/148579.clinic-flame.html	/^function styleConstant(name, interpolate, value1) {$/;"	f
+styleConstant	.clinic/148579.clinic-flame.html	/^function styleConstant(name, value, priority) {$/;"	f
+styleFunction	.clinic/148579.clinic-flame.html	/^function styleFunction(name, interpolate, value) {$/;"	f
+styleFunction	.clinic/148579.clinic-flame.html	/^function styleFunction(name, value, priority) {$/;"	f
+styleInterpolate	.clinic/148579.clinic-flame.html	/^function styleInterpolate(name, i, priority) {$/;"	f
+styleMaybeRemove	.clinic/148579.clinic-flame.html	/^function styleMaybeRemove(id, name) {$/;"	f
+styleNull	.clinic/148579.clinic-flame.html	/^function styleNull(name, interpolate) {$/;"	f
+styleRemove	.clinic/148579.clinic-flame.html	/^function styleRemove(name) {$/;"	f
+styleTween	.clinic/148579.clinic-flame.html	/^function styleTween(name, value, priority) {$/;"	f
+styleValue	.clinic/148579.clinic-flame.html	/^function styleValue(node, name) {$/;"	f
+subset	.clinic/148579.clinic-flame.html	/^function subset(values, other) {$/;"	f
+sum	.clinic/148579.clinic-flame.html	/^function sum(values, valueof) {$/;"	f
+sumChildValues	.clinic/148579.clinic-flame.html	/^  function sumChildValues (node) {$/;"	f
+superset	.clinic/148579.clinic-flame.html	/^function superset(values, other) {$/;"	f
+swap	.clinic/148579.clinic-flame.html	/^function swap(array, i, j) {$/;"	f
+symlog	.clinic/148579.clinic-flame.html	/^function symlog() {$/;"	f
+symlogish	.clinic/148579.clinic-flame.html	/^function symlogish(transform) {$/;"	f
+tanh	.clinic/148579.clinic-flame.html	/^function tanh(x) {$/;"	f
+textConstant	.clinic/148579.clinic-flame.html	/^function textConstant(value) {$/;"	f
+textFunction	.clinic/148579.clinic-flame.html	/^function textFunction(value) {$/;"	f
+textInterpolate	.clinic/148579.clinic-flame.html	/^function textInterpolate(i) {$/;"	f
+textRemove	.clinic/148579.clinic-flame.html	/^function textRemove() {$/;"	f
+textTween	.clinic/148579.clinic-flame.html	/^function textTween(value) {$/;"	f
+threshold	.clinic/148579.clinic-flame.html	/^function threshold() {$/;"	f
+tick	.clinic/148579.clinic-flame.html	/^  function tick(elapsed) {$/;"	f
+tickFormat	.clinic/148579.clinic-flame.html	/^  function tickFormat(date) {$/;"	f
+tickFormat	.clinic/148579.clinic-flame.html	/^function tickFormat(start, stop, count, specifier) {$/;"	f
+tickIncrement	.clinic/148579.clinic-flame.html	/^function tickIncrement(start, stop, count) {$/;"	f
+tickInterval	.clinic/148579.clinic-flame.html	/^  function tickInterval(start, stop, count) {$/;"	f
+tickStep	.clinic/148579.clinic-flame.html	/^function tickStep(start, stop, count) {$/;"	f
+ticker	.clinic/148579.clinic-flame.html	/^function ticker(year, month, week, day, hour, minute) {$/;"	f
+ticks	.clinic/148579.clinic-flame.html	/^  function ticks(start, stop, count) {$/;"	f
+ticks	.clinic/148579.clinic-flame.html	/^function ticks(start, stop, count) {$/;"	f
+time	.clinic/148579.clinic-flame.html	/^  function time (name, fn) {$/;"	f
+time	.clinic/148579.clinic-flame.html	/^function time() {$/;"	f
+timer	.clinic/148579.clinic-flame.html	/^function timer(callback, delay, time) {$/;"	f
+timerExpired	.clinic/148579.clinic-flame.html	/^  function timerExpired() {$/;"	f
+timerFlush	.clinic/148579.clinic-flame.html	/^function timerFlush() {$/;"	f
+toNumber	.clinic/148579.clinic-flame.html	/^function toNumber(value) {$/;"	f
+toggle	.clinic/148579.clinic-flame.html	/^  function toggle (isExpanded = !expanded) {$/;"	f
+toggleAccordion	.clinic/148579.clinic-flame.html	/^  function toggleAccordion (isExpanded = !expanded) {$/;"	f
+tooltipLabel	.clinic/148579.clinic-flame.html	/^  function tooltipLabel (d) {$/;"	f
+touch	.clinic/148579.clinic-flame.html	/^function touch(node, touches, identifier) {$/;"	f
+touchended	.clinic/148579.clinic-flame.html	/^  function touchended() {$/;"	f
+touches	.clinic/148579.clinic-flame.html	/^function touches(node, touches) {$/;"	f
+touchmoved	.clinic/148579.clinic-flame.html	/^  function touchmoved() {$/;"	f
+touchstarted	.clinic/148579.clinic-flame.html	/^  function touchstarted() {$/;"	f
+tpmt	.clinic/148579.clinic-flame.html	/^function tpmt(x) {$/;"	f
+trailingEdge	.clinic/148579.clinic-flame.html	/^  function trailingEdge(time) {$/;"	f
+transform	.clinic/148579.clinic-flame.html	/^function transform(node) {$/;"	f
+transformExp	.clinic/148579.clinic-flame.html	/^function transformExp(x) {$/;"	f
+transformExpn	.clinic/148579.clinic-flame.html	/^function transformExpn(x) {$/;"	f
+transformLog	.clinic/148579.clinic-flame.html	/^function transformLog(x) {$/;"	f
+transformLogn	.clinic/148579.clinic-flame.html	/^function transformLogn(x) {$/;"	f
+transformPow	.clinic/148579.clinic-flame.html	/^function transformPow(exponent) {$/;"	f
+transformSqrt	.clinic/148579.clinic-flame.html	/^function transformSqrt(x) {$/;"	f
+transformSquare	.clinic/148579.clinic-flame.html	/^function transformSquare(x) {$/;"	f
+transformSymexp	.clinic/148579.clinic-flame.html	/^function transformSymexp(c) {$/;"	f
+transformSymlog	.clinic/148579.clinic-flame.html	/^function transformSymlog(c) {$/;"	f
+transformer	.clinic/148579.clinic-flame.html	/^function transformer() {$/;"	f
+transition	.clinic/148579.clinic-flame.html	/^function transition(name) {$/;"	f
+transition_attr	.clinic/148579.clinic-flame.html	/^function transition_attr(name, value) {$/;"	f
+transition_attrTween	.clinic/148579.clinic-flame.html	/^function transition_attrTween(name, value) {$/;"	f
+transition_delay	.clinic/148579.clinic-flame.html	/^function transition_delay(value) {$/;"	f
+transition_duration	.clinic/148579.clinic-flame.html	/^function transition_duration(value) {$/;"	f
+transition_ease	.clinic/148579.clinic-flame.html	/^function transition_ease(value) {$/;"	f
+transition_end	.clinic/148579.clinic-flame.html	/^function transition_end() {$/;"	f
+transition_filter	.clinic/148579.clinic-flame.html	/^function transition_filter(match) {$/;"	f
+transition_merge	.clinic/148579.clinic-flame.html	/^function transition_merge(transition) {$/;"	f
+transition_on	.clinic/148579.clinic-flame.html	/^function transition_on(name, listener) {$/;"	f
+transition_remove	.clinic/148579.clinic-flame.html	/^function transition_remove() {$/;"	f
+transition_select	.clinic/148579.clinic-flame.html	/^function transition_select(select) {$/;"	f
+transition_selectAll	.clinic/148579.clinic-flame.html	/^function transition_selectAll(select) {$/;"	f
+transition_selection	.clinic/148579.clinic-flame.html	/^function transition_selection() {$/;"	f
+transition_style	.clinic/148579.clinic-flame.html	/^function transition_style(name, value, priority) {$/;"	f
+transition_styleTween	.clinic/148579.clinic-flame.html	/^function transition_styleTween(name, value, priority) {$/;"	f
+transition_text	.clinic/148579.clinic-flame.html	/^function transition_text(value) {$/;"	f
+transition_textTween	.clinic/148579.clinic-flame.html	/^function transition_textTween(value) {$/;"	f
+transition_transition	.clinic/148579.clinic-flame.html	/^function transition_transition() {$/;"	f
+transition_tween	.clinic/148579.clinic-flame.html	/^function transition_tween(name, value) {$/;"	f
+translate	.clinic/148579.clinic-flame.html	/^  function translate(transform, p0, p1) {$/;"	f
+translate	.clinic/148579.clinic-flame.html	/^  function translate(xa, ya, xb, yb, s, q) {$/;"	f
+translateChild	.clinic/148579.clinic-flame.html	/^function translateChild(k) {$/;"	f
+transpose	.clinic/148579.clinic-flame.html	/^function transpose(matrix) {$/;"	f
+tree	.clinic/148579.clinic-flame.html	/^  function tree(root) {$/;"	f
+tree	.clinic/148579.clinic-flame.html	/^function tree() {$/;"	f
+treeRoot	.clinic/148579.clinic-flame.html	/^function treeRoot(root) {$/;"	f
+treemap	.clinic/148579.clinic-flame.html	/^  function treemap(root) {$/;"	f
+treemapDice	.clinic/148579.clinic-flame.html	/^function treemapDice(parent, x0, y0, x1, y1) {$/;"	f
+treemapSlice	.clinic/148579.clinic-flame.html	/^function treemapSlice(parent, x0, y0, x1, y1) {$/;"	f
+truncateFileName	.clinic/148579.clinic-flame.html	/^function truncateFileName (context, availableWidth, fileName, pathSeparator, nodeData) {$/;"	f
+truncateFunctionName	.clinic/148579.clinic-flame.html	/^function truncateFunctionName (context, availableWidth, functionName, funcNameWidth) {$/;"	f
+tween	.clinic/148579.clinic-flame.html	/^  function tween() {$/;"	f
+tweenFunction	.clinic/148579.clinic-flame.html	/^function tweenFunction(id, name, value) {$/;"	f
+tweenRemove	.clinic/148579.clinic-flame.html	/^function tweenRemove(id, name) {$/;"	f
+tweenValue	.clinic/148579.clinic-flame.html	/^function tweenValue(transition, name, value) {$/;"	f
+union	.clinic/148579.clinic-flame.html	/^function union(...others) {$/;"	f
+unique	.clinic/148579.clinic-flame.html	/^function unique(values) {$/;"	f
+unsquare	.clinic/148579.clinic-flame.html	/^function unsquare(x) {$/;"	f
+unwrapListeners	.clinic/148579.clinic-flame.html	/^function unwrapListeners(arr) {$/;"	f
+update	.clinic/148579.clinic-flame.html	/^  function update (opts) {$/;"	f
+updateContent	.clinic/148579.clinic-flame.html	/^  function updateContent () {$/;"	f
+utcDate	.clinic/148579.clinic-flame.html	/^function utcDate(d) {$/;"	f
+utcTime	.clinic/148579.clinic-flame.html	/^function utcTime() {$/;"	f
+utcWeekday	.clinic/148579.clinic-flame.html	/^function utcWeekday(i) {$/;"	f
+validate	.clinic/148579.clinic-flame.html	/^function validate (numbers) {$/;"	f
+value	.clinic/148579.clinic-flame.html	/^function value(a, b) {$/;"	f
+variance	.clinic/148579.clinic-flame.html	/^function variance(values, valueof) {$/;"	f
+w	.clinic/148579.clinic-flame.html	/^function w(a,b,c){b=b||[];c=c||[];for(var d=a.className.split(\/\\s+\/),e=0;e<b.length;e+=1){for(var f=!1,g=0;g<d.length;g+=1)if(b[e]===d[g]){f=!0;break}f||d.push(b[e])}b=[];for(e=0;e<d.length;e+=1){f=!1;for(g=0;g<c.length;g+=1)if(d[e]===c[g]){f=!0;break}f||b.push(d[e])}a.className=b.join(" ").replace(\/\\s+\/g," ").replace(\/^\\s+|\\s+$\/,"")}function y(a,b){for(var c=a.className.split(\/\\s+\/),d=0,e=c.length;d<e;d++)if(c[d]==b)return!0;return!1}$/;"	f
+wa	.clinic/148579.clinic-flame.html	/^function wa(a){if(0==a.a.length)throw Error("No fonts to load!");if(-1!=a.c.indexOf("kit="))return a.c;for(var b=a.a.length,c=[],d=0;d<b;d++)c.push(a.a[d].replace(\/ \/g,"+"));b=a.c+"?family="+c.join("%7C");0<a.f.length&&(b+="&subset="+a.f.join(","));0<a.g.length&&(b+="&text="+encodeURIComponent(a.g));return b};function ya(a){this.f=a;this.a=[];this.c={}}$/;"	f
+wake	.clinic/148579.clinic-flame.html	/^function wake() {$/;"	f
+weekday	.clinic/148579.clinic-flame.html	/^function weekday(i) {$/;"	f
+wheeled	.clinic/148579.clinic-flame.html	/^  function wheeled() {$/;"	f
+wheelidled	.clinic/148579.clinic-flame.html	/^    function wheelidled() {$/;"	f
+withZoomTransform	.clinic/148579.clinic-flame.html	/^  function withZoomTransform (context, fn) {$/;"	f
+xyz2lab	.clinic/148579.clinic-flame.html	/^function xyz2lab(t) {$/;"	f
+yesdrag	.clinic/148579.clinic-flame.html	/^function yesdrag(view, noclick) {$/;"	f
+zero	.clinic/148579.clinic-flame.html	/^function zero(b) {$/;"	f
+zip	.clinic/148579.clinic-flame.html	/^function zip() {$/;"	f
+zoom	.clinic/148579.clinic-flame.html	/^  function zoom (d) {$/;"	f
+zoom	.clinic/148579.clinic-flame.html	/^  function zoom(selection) {$/;"	f
+zoom	.clinic/148579.clinic-flame.html	/^function zoom() {$/;"	f
+zoom	.clinic/148579.clinic-flame.html	/^function zoom(p0, p1) {$/;"	f

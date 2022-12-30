@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "clinic": "^12.0.0",
+    "node-fetch": "^3.3.0",
+    "pprof": "^3.2.0",
+    "undici": "^5.14.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "bench": "../node/node bench/fetch.js && ../node/node bench/raw.js",
+    "fetch:pprof": "../node/node -r ./node_modules/pprof/out/src/index.js bench/fetch.js",
+    "fetch:flame": "clinic flame -- ../node/node bench/fetch.js",
+    "fetch:deopt": "../node/node --trace-deopt bench/fetch.js",
+    "fetch:inspect": "../node/node --inspect-brk bench/fetch.js",
+    "fetch:gc": "../node/node --trace-gc bench/fetch.js",
+    "raw:pprof": "../node/node -r ./node_modules/pprof/out/src/index.js bench/raw.js"
+  },
+  "name": "nodejs-webstreams-perf",
+  "version": "1.0.0",
+  "main": "fetch-cronometro.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

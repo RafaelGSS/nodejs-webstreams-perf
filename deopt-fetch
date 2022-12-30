@@ -1,0 +1,29 @@
+
+> nodejs-webstreams-perf@1.0.0 fetch:deopt
+> ../node/node --trace-deopt bench/fetch.js
+
+[bailout (kind: deopt-eager, reason: Insufficient type feedback for compare operation): begin. deoptimizing 0x3417c7ac6419 <JSFunction normalizeString (sfi = 0xa6b4161fb61)>, 0x559836ed5a81 <Code TURBOFAN>, opt id 0, bytecode offset 256, deopt exit 1, FP to SP delta 96, caller SP 0x7ffeb38a4aa8, pc 0x559836ed6227]
+[bailout (kind: deopt-eager, reason: Insufficient type feedback for binary operation): begin. deoptimizing 0x3417c7ac6419 <JSFunction normalizeString (sfi = 0xa6b4161fb61)>, 0x559836ee0601 <Code TURBOFAN>, opt id 1, bytecode offset 118, deopt exit 2, FP to SP delta 96, caller SP 0x7ffeb38a5168, pc 0x559836ee0ec7]
+[marking dependent code 0x559836f441c1 <Code TURBOFAN> (0x1c8254178b51 <SharedFunctionInfo append>) (opt id 10) for deoptimization, reason: code dependencies]
+[bailout (kind: deopt-lazy, reason: (unknown)): begin. deoptimizing 0x1d7cf460b911 <JSFunction append (sfi = 0x1c8254178b51)>, 0x559836f441c1 <Code TURBOFAN>, opt id 10, bytecode offset 135, deopt exit 8, FP to SP delta 56, caller SP 0x7ffeb38a5988, pc 0x559836f444d5]
+[marking dependent code 0x559836f44e01 <Code TURBOFAN> (0x38e1e2bb1d11 <SharedFunctionInfo fetching>) (opt id 13) for deoptimization, reason: code dependencies]
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x1d7cf4639179 <JSFunction (sfi = 0x38e1e2b97151)>, 0x559836f3e381 <Code TURBOFAN>, opt id 6, bytecode offset 129, deopt exit 4, FP to SP delta 120, caller SP 0x7ffeb38a2318, pc 0x559836f3e990]
+[marking dependent code 0x559836fd8001 <Code TURBOFAN> (0x38e1e2bb1fd9 <SharedFunctionInfo httpNetworkFetch>) (opt id 84) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fd5d01 <Code TURBOFAN> (0x38e1e2bb1f89 <SharedFunctionInfo httpNetworkOrCacheFetch>) (opt id 87) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fc84c1 <Code TURBOFAN> (0x1a973e526119 <SharedFunctionInfo WritableStream>) (opt id 68) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fedcc1 <Code TURBOFAN> (0x398268789bf1 <SharedFunctionInfo addEventListener>) (opt id 123) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fed181 <Code TURBOFAN> (0x0a6b41638e51 <SharedFunctionInfo onParseComplete>) (opt id 121) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836feb041 <Code TURBOFAN> (0x04df6a2bb079 <SharedFunctionInfo>) (opt id 117) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fe96c1 <Code TURBOFAN> (0x1c8254178ba1 <SharedFunctionInfo set>) (opt id 112) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fec381 <Code TURBOFAN> (0x38e1e2bb1bd1 <SharedFunctionInfo fetch>) (opt id 120) for deoptimization, reason: code dependencies]
+[marking dependent code 0x559836fe99c1 <Code TURBOFAN> (0x1c825417dd49 <SharedFunctionInfo createDeferredPromise>) (opt id 113) for deoptimization, reason: code dependencies]
+[bailout (kind: deopt-lazy, reason: (unknown)): begin. deoptimizing 0x1d7cf46344c1 <JSFunction fetch (sfi = 0x38e1e2bb1bd1)>, 0x559836fec381 <Code TURBOFAN>, opt id 120, bytecode offset 423, deopt exit 34, FP to SP delta 80, caller SP 0x7ffeb38a24a8, pc 0x559836fed035]
+[marking dependent code 0x55983702f801 <Code TURBOFAN> (0x0a6b41611921 <SharedFunctionInfo unenroll>) (opt id 243) for deoptimization, reason: weak objects]
+[bailout (kind: deopt-eager, reason: Insufficient type feedback for generic keyed access): begin. deoptimizing 0x351fbc94b349 <JSFunction resume (sfi = 0x2c5aa6d18499)>, 0x559836fd9f41 <Code TURBOFAN>, opt id 273, bytecode offset 67, deopt exit 3, FP to SP delta 32, caller SP 0x7ffeb38a6248, pc 0x559836fda124]
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x19d187c1ba49 <JSFunction EventEmitter.init (sfi = 0x28ec7ae4049)>, 0x559837013401 <Code TURBOFAN>, opt id 180, bytecode offset 41, deopt exit 3, FP to SP delta 40, caller SP 0x7ffeb389d348, pc 0x559837013c80]
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x351fbc95dcb9 <JSFunction construct (sfi = 0x3d237ef857b9)>, 0x559836f44e01 <Code TURBOFAN>, opt id 303, bytecode offset 0, deopt exit 1, FP to SP delta 32, caller SP 0x7ffeb389d3f8, pc 0x559836f44f49]
+fetch: 24.056s
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x1c825416e861 <JSFunction onwrite (sfi = 0x3d237ef969a9)>, 0x559837033581 <Code TURBOFAN>, opt id 254, bytecode offset 0, deopt exit 0, FP to SP delta 48, caller SP 0x7ffeb389d628, pc 0x559837033d02]
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x2f0fbdd82dc1 <JSFunction removeListener (sfi = 0x28ec7ae50b1)>, 0x559837014f01 <Code TURBOFAN>, opt id 285, bytecode offset 7, deopt exit 2, FP to SP delta 48, caller SP 0x7ffeb389d868, pc 0x559837015283]
+[bailout (kind: deopt-eager, reason: wrong map): begin. deoptimizing 0x1c825416e8a1 <JSFunction afterWriteTick (sfi = 0x3d237ef969f9)>, 0x559837016441 <Code TURBOFAN>, opt id 188, bytecode offset 0, deopt exit 3, FP to SP delta 72, caller SP 0x7ffeb38a2d48, pc 0x559837016993]
+[bailout (kind: deopt-eager, reason: wrong instance type): begin. deoptimizing 0x2f0fbdd82809 <JSFunction emit (sfi = 0x28ec7ae44d1)>, 0x559836fdee81 <Code TURBOFAN>, opt id 93, bytecode offset 10, deopt exit 1, FP to SP delta 48, caller SP 0x7ffeb38a62e0, pc 0x559836fdf114]

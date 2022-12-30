@@ -12,8 +12,10 @@
     "fetch:flame": "clinic flame -- ../node/node bench/fetch.js",
     "fetch:deopt": "../node/node --trace-deopt bench/fetch.js",
     "fetch:inspect": "../node/node --inspect-brk bench/fetch.js",
+    "fetch:cpuprof": "../node/node --cpu-prof bench/fetch.js",
     "fetch:gc": "../node/node --trace-gc bench/fetch.js",
-    "raw:pprof": "../node/node -r ./node_modules/pprof/out/src/index.js bench/raw.js"
+    "raw:pprof": "../node/node -r ./node_modules/pprof/out/src/index.js bench/raw.js",
+    "node-fetch:cpuprof": "../node/node --cpu-prof bench/node-fetch.mjs"
   },
   "name": "nodejs-webstreams-perf",
   "version": "1.0.0",
